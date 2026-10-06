@@ -16,6 +16,8 @@ The `utils` command is used for performing various **Checkmarx One utility funct
 
 `utils` can be used with the following commands:
 
+## In this section
+
 - [completion](completion.md)
 - [env](env.md)
 - [contributor-count](contributor-count/README.md)

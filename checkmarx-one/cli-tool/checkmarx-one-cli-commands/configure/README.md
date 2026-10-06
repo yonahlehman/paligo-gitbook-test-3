@@ -18,6 +18,8 @@ The `configure` command can be used by itself or with a sub-command. When used b
 
 `configure` can be used with the following commands:
 
+## In this section
+
 - [configure (prompt)](configure-prompt.md)
 - [configure set](configure-set.md)
 - [configure show](configure-show.md)

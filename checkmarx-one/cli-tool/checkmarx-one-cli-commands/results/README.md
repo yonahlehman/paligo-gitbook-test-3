@@ -16,6 +16,8 @@ The `results` command is used to **retrieve scan results** in Checkmarx One.
 
 `results` can be used with the following commands:
 
+## In this section
+
 - [results show](results-show.md)
 - [results codebashing](results-codebashing.md)
 - [results exit-code](results-exit-code.md)

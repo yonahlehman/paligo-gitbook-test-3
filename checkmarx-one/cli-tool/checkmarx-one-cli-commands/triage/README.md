@@ -14,6 +14,8 @@ For more information about triaging results in Checkmarx One, see Managing (Tria
 
 `triage` can be used with the following commands:
 
+## In this section
+
 - [triage update](triage-update.md)
 - [triage show](triage-show.md)
 - [triage get-states](triage-get-states.md)

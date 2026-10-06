@@ -29,6 +29,8 @@ The following is a list of versions that were **tested** and found to work relia
 - Linux: RedHat 8.9, Amazon Linux 2, Fedora 34, Ubuntu 20.4.3, CentOS 8
 - MacOS tested version: Sequoia 15.5 (should work fine on later versions as well)
 
+## In this section
+
 - [Checkmarx One CLI Quick Start Guide](checkmarx-one-cli-quick-start-guide.md)
 - [Downloading and Installing the Checkmarx One CLI](downloading-and-installing-the-checkmarx-one-cli.md)
 - [Configuring the Checkmarx One CLI](configuring-the-checkmarx-one-cli/README.md)

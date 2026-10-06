@@ -18,6 +18,8 @@ When a scan is initiated in *asynchronous* mode using **--async** flag, Checkmar
 
 `scan` can be used with the following commands:
 
+## In this section
+
 - [scan cancel](scan-cancel.md)
 - [scan create](scan-create.md)
 - [scan delete](scan-delete.md)

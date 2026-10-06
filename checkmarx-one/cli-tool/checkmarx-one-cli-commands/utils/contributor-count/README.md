@@ -22,6 +22,8 @@ The `contributor-count` command does not support all global flags. The following
 - `--timeout <string>` *(Default: 5 seconds)* — Timeout for network activity.
 - `--debug` — Debug mode returns detailed logs, including the username of each of the contributors and the repos to which they contributed.
 
+## In this section
+
 - [github](github.md)
 - [azure](azure.md)
 - [gitlab](gitlab.md)

@@ -16,6 +16,8 @@ The `project` command is used for managing your Checkmarx One projects.
 
 `project` can be used with the following commands:
 
+## In this section
+
 - [project create](project-create.md)
 - [project delete](project-delete.md)
 - [project list](project-list.md)

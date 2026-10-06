@@ -12,5 +12,7 @@ The `remediation` command enables you to automatically **remediate** **vulnerabi
 
 - `--help` — Help for the utils remediation.
 
+## In this section
+
 - [kics](kics.md)
 - [sca](sca.md)

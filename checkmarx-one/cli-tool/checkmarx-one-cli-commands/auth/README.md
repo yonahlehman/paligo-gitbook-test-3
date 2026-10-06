@@ -6,6 +6,8 @@ The `auth` command is used for validating the OAuth Clients against Checkmarx On
 
 `auth` can be used with the following commands:
 
+## In this section
+
 - [auth register](auth-register.md)
 - [auth validate](auth-validate.md)
 - [auth login](auth-login.md)

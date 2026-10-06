@@ -220,4 +220,6 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
      {% endhint %}
   10. Click **Save Client**.
 
+## In this section
+
 - [Checkmarx One CLI Config and Environment Variables](checkmarx-one-cli-config-and-environment-variables.md)
