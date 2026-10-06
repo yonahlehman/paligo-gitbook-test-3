@@ -491,4 +491,3 @@
     * [New Association of Projects to Applications - API Compatibility](checkmarx-one/api-documentation/new-association-of-projects-to-applications---api-compatibility.md)
     * [Container Security GraphQL API Documentation](checkmarx-one/api-documentation/container-security-graphql-api-documentation.md)
   * [Checkmarx One Support Content](checkmarx-one/support-content/README.md)
-* [Format test (delete after checking)](format-test.md)
