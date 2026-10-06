@@ -28,9 +28,7 @@ The configure command prompts for the following authentication parameters
 
 - AST Base URI - The base URL of your Checkmarx One environment.
 
-  <details>
-
-  <summary>Checkmarx One Server Base URLs</summary>
+  **Checkmarx One Server Base URLs**
 
   - US Environment - https://ast.checkmarx.net
   - US2 Environment - https://us.ast.checkmarx.net
@@ -43,13 +41,9 @@ The configure command prompts for the following authentication parameters
   - Singapore - https://sng.ast.checkmarx.net
   - UAE - https://mea.ast.checkmarx.net
   - Israel - https://gov-il.ast.checkmarx.net
-
-  </details>
 - AST Base Auth URI - The base URI of the authentication server for you Checkmarx One environment.
 
-  <details>
-
-  <summary>Checkmarx One Authentication URLs</summary>
+  **Checkmarx One Authentication URLs**
 
   - US Environment - https://iam.checkmarx.net
   - US2 Environment - https://us.iam.checkmarx.net
@@ -61,8 +55,6 @@ The configure command prompts for the following authentication parameters
   - Singapore - https://sng.iam.checkmarx.net
   - UAE - https://mea.iam.checkmarx.net
   - Israel - https://gov-il.iam.checkmarx.net
-
-  </details>
 - AST Tenant - The name of you Checkmarx One tenant account.
 - Do you want to use API Key authentication? - Specify your authentication method. Y = API Key, N = OAuth client
 - AST API Key - Your Checkmarx One API Key. See [Generating an API Key](../../checkmarx-one-cli-quick-start-guide.md)
