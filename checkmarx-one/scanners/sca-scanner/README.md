@@ -262,9 +262,9 @@ The following table shows how dev dependencies are identified for specific packa
 
 | **Package Manager** | **Dev Dependency Specification** |
 |---|---|
-| NPM | In the manifest file (package.json or bower.json), using the devDependencies attribute. For example,<br>```<br>"devDependencies" : {<br> "my_test_framework": "^3.1.0".<br> "another_dev_dep": "1.0.0 - 1.2.0"<br>}<br>``` |
-| Yarn | In the manifest file (package.json or bower.json), using the devDependencies attribute. For example,<br>```<br>"devDependencies" : {<br> "my_test_framework": "^3.1.0".<br> "another_dev_dep": "1.0.0 - 1.2.0"<br>}<br>``` |
-| Bower | In the manifest file (package.json or bower.json), using the devDependencies attribute. For example,<br>```<br>"devDependencies" : {<br> "my_test_framework": "^3.1.0".<br> "another_dev_dep": "1.0.0 - 1.2.0"<br>}<br>``` |
+| NPM | In the manifest file (package.json or bower.json), using the devDependencies attribute. For example,<br>`"devDependencies" : {`<br>` "my_test_framework": "^3.1.0".`<br>` "another_dev_dep": "1.0.0 - 1.2.0"`<br>`}` |
+| Yarn | In the manifest file (package.json or bower.json), using the devDependencies attribute. For example,<br>`"devDependencies" : {`<br>` "my_test_framework": "^3.1.0".`<br>` "another_dev_dep": "1.0.0 - 1.2.0"`<br>`}` |
+| Bower | In the manifest file (package.json or bower.json), using the devDependencies attribute. For example,<br>`"devDependencies" : {`<br>` "my_test_framework": "^3.1.0".`<br>` "another_dev_dep": "1.0.0 - 1.2.0"`<br>`}` |
 | Composer | Packages under the require-dev section in the composer.json file. |
 
 #### Identifying Test Dependencies

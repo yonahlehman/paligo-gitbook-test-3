@@ -10,7 +10,7 @@ CLI flags are submitted on the scan level with the [scan create](../../cli-tool/
 
 | **Parameter** | **Values** | **Notes** | **CLI** | **API** | Config as Code |
 |---|---|---|---|---|---|
-| **Folder/file filter** | Allow users to select specific folders or files to include or exclude from the code-scanning process. | • Including a file type - \*.java<br>• Excluding a file type - !\*.java<br>• Use “,” sign to chain file types.<br>for example: \**.*java*,*\*.js<br>• The parameter also supports including/excluding folders.<br>• regex is not supported.<br>{% hint style="info" %}<br>For details on the filter application logic, see [here](#filter-application-logic).<br>{% endhint %} | | scan.config.aisc.filter<br>Example:<br>```<br>  {<br> "key": "scan.config.aisc.filter",<br> "value": "*.py,Hugo_Big_Project*.java",<br> "allowOverride": true<br> }<br>``` | `filter` |
+| **Folder/file filter** | Allow users to select specific folders or files to include or exclude from the code-scanning process. | • Including a file type - \*.java<br>• Excluding a file type - !\*.java<br>• Use “,” sign to chain file types.<br>for example: \**.*java*,*\*.js<br>• The parameter also supports including/excluding folders.<br>• regex is not supported.<br>{% hint style="info" %}<br>For details on the filter application logic, see [here](#filter-application-logic).<br>{% endhint %} | | scan.config.aisc.filter<br>Example:<br>`  {`<br>` "key": "scan.config.aisc.filter",`<br>` "value": "*.py,Hugo_Big_Project*.java",`<br>` "allowOverride": true`<br>` }` | `filter` |
 
 ## Filter Application Logic
 
