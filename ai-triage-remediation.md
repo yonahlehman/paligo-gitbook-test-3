@@ -33,7 +33,7 @@ When AI Triage determines that a change in triage state is justified, the State 
 - When a vulnerability is determined to be **not** Reachable **or not** Exploitable, the state is set as **Proposed Not Exploitable**.
 
   {% hint style="info" %}
-  When the state has been set by AI, the AI icon ![](.gitbook/assets/Image_1326.png) is shown next to the state.
+  When the state has been set by AI, the AI icon ![](assets/Image_1326.png) is shown next to the state.
   {% endhint %}
 
   {% hint style="info" %}
@@ -72,9 +72,9 @@ This method is currently supported only for SAST risks.
 2. Open the project containing the vulnerability you want to review.
 3. Select the vulnerability in the results table.
 
-   The selected vulnerability opens in the side panel, where you can choose to run ![](.gitbook/assets/aitriagebutton.png) or ![](.gitbook/assets/aitriagebutton2.png) on the selected risk.
+   The selected vulnerability opens in the side panel, where you can choose to run ![](assets/aitriagebutton.png) or ![](assets/aitriagebutton2.png) on the selected risk.
 
-   ![](.gitbook/assets/aitriage14.png)
+   ![](assets/aitriage14.png)
 
 ### Running Automated AI Triage
 
@@ -95,7 +95,7 @@ In the global account settings you can define the default rules that determine w
 
    The Auto-triage configuration options are shown:
 
-   ![](.gitbook/assets/Image_1304.png)
+   ![](assets/Image_1304.png)
 3. Specify values for the following parameters:
 
    - **Projects** – The projects to which the following rules for running AI Triage apply.
@@ -112,7 +112,7 @@ Automatic AI Triage can also be configured for individual projects. Project sett
 
 1. Navigate to the desired project's **Project Settings** > **AI Assist** tab.
 
-   ![](.gitbook/assets/aitriage10.png)
+   ![](assets/aitriage10.png)
 2. Configure the Auto-triage settings as explained above.
 3. Click **Save**.
 
@@ -134,7 +134,7 @@ AI Triage & Remediation is configured at the project level in the Checkmarx One 
 2. In the **Project Settings**, navigate to the **Code Repository** tab.
 3. In the permissions section, activate the toggle for **AI Triage & Remediation**.
 
-   ![](.gitbook/assets/aitriage.png)
+   ![](assets/aitriage.png)
 
    A confirmation dialogue is displayed.
 4. Click **Activate** to enable the feature.
@@ -156,7 +156,7 @@ AI Triage & Remediation is configured at the project level in the Checkmarx One 
    The maximum number of risks automatically triaged for a PR is 10 (selected in order listed in New Issues report).
    {% endhint %}
 
-   ![](.gitbook/assets/Image_1099b.png)
+   ![](assets/Image_1099b.png)
 3. **Trigger remediation for a vulnerability**
 
    Request a fix for one or more vulnerabilities by submitting a comment with `@checkmarx` followed by a natural language request for remediation, e.g., `@checkmarx remediate issue 1` or `@checkmarx fix all issues`.
@@ -186,23 +186,23 @@ Results from AI Triage & Remediation are shown in the Risk Orchestration screen,
 
 ### AI Triage Results
 
-When AI Triage causes an automatic state change, the AI icon ![](.gitbook/assets/Image_1326.png) is shown in the risks table in the State column. Hover over the icon to show a link to additional details.
+When AI Triage causes an automatic state change, the AI icon ![](assets/Image_1326.png) is shown in the risks table in the State column. Hover over the icon to show a link to additional details.
 
-![](.gitbook/assets/Image_1327.png)
+![](assets/Image_1327.png)
 
 In the side panel that opens the AI Triage results are shown in the **Info** tab. The results include a summary of the risk assessment as well as an Analysis section with AI's determination of whether or not the vulnerability is Reachable and/or Exploitable.
 
-![](.gitbook/assets/aitriage5.png)
+![](assets/aitriage5.png)
 
 AI triage changes are also recorded in the **Change Log**.
 
-![](.gitbook/assets/aitriage11.png)
+![](assets/aitriage11.png)
 
 ### Viewing AI Remediation
 
 In the side panel that opens when a risk is selected, AI Remediation results are shown under **Remediation > AI Remediation**. The remediation includes a summary of the recommended fix, an explanation of the issue, why it should be addressed, and the actual code changes that will remediate it.
 
-![](.gitbook/assets/aitriage6.png)
+![](assets/aitriage6.png)
 
 {% hint style="info" %}
 For **GitHub Code Repository** Integration projects, a pull request is also created in GitHub containing the suggested fix. For other SCM integrations and manual projects, the remediation is available within Checkmarx One but no pull request is created.
@@ -216,7 +216,7 @@ To view **AI Triage & Remediation** analytics:
 2. Select the **AI Assist Usage** tab.
 3. Select **AI Triage & Remediation**.
 
-![](.gitbook/assets/aitriage1.png)
+![](assets/aitriage1.png)
 
 The **AI Triage & Remediation** dashboard provides an overview of how AI Triage & Remediation is being used across your organization. It includes high-level metrics such as the number of AI triages and remediations performed, unique developers using the feature, and estimated developer time saved. The dashboard also displays **activity** trends over time and provides **insights** into adoption patterns, triage outcomes, remediation results, and project usage. Use the filters at the top of the page to view analytics for specific resources, branches, scanners, time periods, or other criteria.
 
@@ -243,11 +243,11 @@ The **Account Settings** > **License** tab provides an overview of your organiza
 1. In the Checkmarx One web application, click the **Credits** indicator in the left navigation pane.
 2. In the pop-up, click **Details**.
 
-   ![](.gitbook/assets/aitriage2.png)
+   ![](assets/aitriage2.png)
 
    The **License** page opens and displays the **Credit Usage** section, which provides a high-level overview of your organization's AI credit consumption.
 
-![](.gitbook/assets/aitriage3.png)
+![](assets/aitriage3.png)
 
 The Credit Usage section displays the following widgets:
 
@@ -261,7 +261,7 @@ The Credit Usage section displays the following widgets:
 
 You can view additional details about credit usage by clicking on the **Credit Usage** tab.
 
-![](.gitbook/assets/aitriage4.png)
+![](assets/aitriage4.png)
 
 The **Credit Usage** tab contains two sub-tabs, **Consumption Details** and **History**.
 
@@ -272,7 +272,7 @@ Both tabs enable the following actions:
 
 #### Consumption Details Tab (default)
 
-![](.gitbook/assets/Image_1302.png)
+![](assets/Image_1302.png)
 
 The Consumption Details tab lets you view credit consumption broken down by **Action, User, Project, Environment,** or **Application**.
 
@@ -280,7 +280,7 @@ For each item displayed, the table shows the number of credits used, the percent
 
 #### History Tab
 
-![](.gitbook/assets/Image_1303.png)
+![](assets/Image_1303.png)
 
 The History tab shows a list of actions taken that consumed AI Credits. For each action details are given about the action taken, the number of credits used and the user who initiated the action.
 
