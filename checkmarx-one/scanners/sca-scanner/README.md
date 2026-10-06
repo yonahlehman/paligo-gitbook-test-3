@@ -285,7 +285,7 @@ In addition to Risk Score (which focuses on severity of the risk based on CVSS),
 
 CxScore is assigned to vulnerabilities displayed in the Risks tab and is also shown for packages in the Packages tab. The Package CxScore reflects the highest CxScore among all vulnerabilities associated with that package.
 
-For the complete documentation on CxScore, see CxScore: Risk Prioritization for SCA Vulnerabilities
+For the complete documentation on CxScore, see [CxScore: Risk Prioritization for SCA Vulnerabilities](../../general-product-information/checkmarx-one-calculation-of-severity-level/cxscore-risk-prioritization-for-sca-vulnerabilities.md)
 
 ## In this section
 

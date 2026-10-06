@@ -130,7 +130,7 @@ To keep the report concise, AI Triage analysis is performed on a limited number 
 
 AI Triage analysis helps development and AppSec teams distinguish between findings that represent a practical security risk and findings that are less likely to be exploitable in the running application.
 
-For more information, see AI Triage & Remediation.
+For more information, see [AI Triage & Remediation](../../../upcoming-features/ai-triage-remediation.md).
 
 ## PR Decoration New Issues Report
 

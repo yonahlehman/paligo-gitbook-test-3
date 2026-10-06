@@ -19,7 +19,7 @@ For AI-enabled accounts, users can interact with Checkmarx One using natural lan
 When referencing a vulnerability, use the row number displayed in the PR decoration table.
 
 {% hint style="info" %}
-**GitHub Only**: For projects with **AI Triage & Remediation** enabled, users can also request AI-generated remediation directly from the pull request. The AI Remediation agent can generate remediation pull requests for eligible vulnerabilities identified during the scan. See AI Triage & Remediation for additional information.
+**GitHub Only**: For projects with **AI Triage & Remediation** enabled, users can also request AI-generated remediation directly from the pull request. The AI Remediation agent can generate remediation pull requests for eligible vulnerabilities identified during the scan. See [AI Triage & Remediation](../../../upcoming-features/ai-triage-remediation.md) for additional information.
 {% endhint %}
 
 ## Non AI Accounts

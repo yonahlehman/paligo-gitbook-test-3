@@ -6,7 +6,7 @@ The `scan sca-realtime` command is used to **create and run a new sca scan** on 
 Even for users with a Checkmarx account, the realtime scan results are not synced with the user's Checkmarx account.
 {% endhint %}
 
-For info about which languages and package managers are supported for the SCA scanner, see SCA Scanner - Supported Languages and Package Managers.
+For info about which languages and package managers are supported for the SCA scanner, see [SCA Scanner - Supported Languages and Package Managers](../../../general-product-information/supported-languages-frameworks-technologies-and-package-managers/sca-scanner---supported-languages-and-package-managers.md).
 
 {% hint style="warning" %}
 In order for this tool to be effective, you need to install all relevant package managers on your local environment, see Installing Supported Package Managers for Resolver.

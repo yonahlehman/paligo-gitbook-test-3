@@ -59,7 +59,7 @@ The following is a list of the permissions required and why Checkmarx needs thes
 
 - **Commit statuses (read and write)** - Update commit status indicators (e.g., pending, success, failure) on commits and pull requests.
 - **Pull requests (read and write)** - Read and interact with pull requests.
-- **Contents (read and write)** - Read repository files for code analysis. Write to submit PR with remediated code - used for [SCA Auto PRs](../../scanners/sca-scanner/README.md) and AI Triage & Remediation.
+- **Contents (read and write)** - Read repository files for code analysis. Write to submit PR with remediated code - used for [SCA Auto PRs](../../scanners/sca-scanner/README.md) and [AI Triage & Remediation](../../upcoming-features/ai-triage-remediation.md).
 - **Issues (read and write)** - Create/update FeedbackApp issues, handle GitHub comments, and decorate pull requests.
 - **Metadata (read only)** - Retrieve basic repository information.
 - **Member Organization (read only)** (Only for Managed Setup flow) - Handle user authentication and organization display.
