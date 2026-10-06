@@ -1,6 +1,6 @@
 # Checkmarx One
 
-Placeholder for the Checkmarx One section.
+This section contains documentation for Checkmarx One. In this section you will find up to date technical documentation for all aspects of Checkmarx One, including a complete User Guide as well as documentation for integrations via (REST) API, the CLI tool and plugins.
 
 ## In this section
 
