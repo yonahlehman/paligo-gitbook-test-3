@@ -9,7 +9,7 @@ The **Applications** page contains the following elements:
 - **Application Actions**
 - **Application Header Bar** - includes tools for filtering the Applications Pane view, and exporting Application reports.
 
-<figure><img src="../../../assets/applicationspage.png" alt="" width="576"><figcaption></figcaption></figure>
+<figure><img src="../../../assets/applicationspage-9145c58b.png" alt="" width="576"><figcaption></figcaption></figure>
 
 The following sections describe each component of the Applications page in more detail.
 

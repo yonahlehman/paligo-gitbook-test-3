@@ -4,7 +4,7 @@
 
 1. In the **Applications and Projects** home page, click on **Applications** tab.
 
-   <figure><img src="../../../assets/ApplicationsPage.png" alt="" width="576"><figcaption></figcaption></figure>
+   <figure><img src="../../../assets/ApplicationsPage-30a96fd6.png" alt="" width="576"><figcaption></figcaption></figure>
 2. Click on **Actions** icon **→** **Application Settings**.
 
    <figure><img src="../../../assets/ApplicationSettingsAccess.png" alt="" width="576"><figcaption></figcaption></figure>
