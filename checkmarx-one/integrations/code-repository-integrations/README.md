@@ -8,7 +8,7 @@ The following table shows support for Checkmarx One features for each code repos
 
 | | Create new integration | Convert manual project to integration | Monitor new repositories | Code repository coverage | Suggested repositories |
 |---|---|---|---|---|---|
-| Documentation Links | Code Repository Integration Projects | • Project Migration<br>• [API documentation](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/nvgdi3222llie-code-repository-project-conversion-rest-api) | [Monitor New Repositories](monitor-new-repositories.md) | [Code Repository Coverage](code-repository-coverage.md) | [Suggested Repositories](suggested-repositories.md) |
+| Documentation Links | Code Repository Integration Projects | • [Project Migration](../../user-guide/managing-projects/project-migration.md)<br>• [API documentation](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/nvgdi3222llie-code-repository-project-conversion-rest-api) | [Monitor New Repositories](monitor-new-repositories.md) | [Code Repository Coverage](code-repository-coverage.md) | [Suggested Repositories](suggested-repositories.md) |
 | GitHub Managed Setup | UI/API | UI/API | UI/API | UI | UI |
 | GitHub Custom Setup | UI/API | UI/API | UI/API | UI | UI |
 | GitLab Managed Setup | UI | UI/API | ![](../../../assets/MicrosoftTeams-image__1_.png) | UI | ![](../../../assets/MicrosoftTeams-image__1_.png) |

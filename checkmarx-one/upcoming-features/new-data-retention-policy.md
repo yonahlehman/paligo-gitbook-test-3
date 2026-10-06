@@ -17,7 +17,7 @@ This article relates to exporting data from Checkmarx One. A similar retention p
 
 If you need to retain data (e.g., evidence packs, historical reports) beyond the scheduled time period, you should download reports that contain the relevant data.
 
-For detailed information about various types of scan reports and how they can be exported, see Scan Reports.
+For detailed information about various types of scan reports and how they can be exported, see [Scan Reports](../user-guide/checkmarx-one-reports/scan-reports.md).
 
 The following procedure explains how you can easily download a "default" scan report.
 

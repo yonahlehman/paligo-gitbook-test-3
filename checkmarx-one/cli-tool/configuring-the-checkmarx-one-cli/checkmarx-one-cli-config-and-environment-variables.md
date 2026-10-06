@@ -72,7 +72,7 @@ To use them again, you will need to configure them once again in a new shell ses
 
   By default, the config file is stored at ($HOME/.checkmarx). If this environment variable is set, all CLI commands will refer to the specified file location.
 - `CX_HTTP_PROXY` — An alternative method for specifying an optional proxy server. This enables users to designate a specialized proxy for use with Checkmarx One that doesn't affect the proxy used for other applications. When this is used it overrides the value of `HTTP_PROXY`.
-- `CX_LINK_SERVER_HOST` — Enter the CxLink to be used for connecting to your code repository. This enables sending PR decorations to the code repository without exposing it to the internet. Learn more about CxLink here.
+- `CX_LINK_SERVER_HOST` — Enter the CxLink to be used for connecting to your code repository. This enables sending PR decorations to the code repository without exposing it to the internet. Learn more about CxLink [here](../../user-guide/cxlink.md).
 - `CX_TENANT` — The tenant that is used for client authentication.
 - `CX_PROXY_AUTH_TYPE` — Proxy authentication type, (basic, ntlm, kerberos, or kerberos-native). `kerberos` for [MIT kereberos](https://web.mit.edu/kerberos/dist/) and `kerberos-native` for [SSPI](https://learn.microsoft.com/en-us/windows-server/security/windows-authentication/security-support-provider-interface-architecture).
 

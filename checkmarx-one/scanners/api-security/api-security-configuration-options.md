@@ -2,7 +2,7 @@
 
 The following table shows the configuration options available for the **API Security** scanner. These configuration options can be applied on the **Account** > **Project** > **Scan** levels. These configurations can be set via the web application (UI), CLI or API, as shown in the table below.
 
-In addition, the API Security scanner supports a **Configure as Code** file, which can be added directly to the repository or included in the ZIP file being scanned. For more information, see Configuring Projects Using Config as Code Files
+In addition, the API Security scanner supports a **Configure as Code** file, which can be added directly to the repository or included in the ZIP file being scanned. For more information, see [Configuring Projects Using Config as Code Files](../../user-guide/managing-projects/configuring-projects-using-config-as-code-files/README.md)
 
 {% hint style="info" %}
 API configs can be configured on the account or project level using the [Configuration](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/cs61sszap44td-scan-configuration-service) API or on the scan level as part of the request body of the [POST /scans](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/cs61sszap44td-scan-configuration-service) API. When using the POST /scans API the `scan.config.apisec` prefix is left out.

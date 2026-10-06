@@ -40,7 +40,7 @@ Before running Checkmarx One CLI commands in your GitLab pipelines, you need to 
    | CX_TENANT | The name of your tenant account. |
    | CX_CLIENT_ID and CX_CLIENT_SECRET | These values are obtained from the Checkmarx One web application, see [Creating an OAuth Client for Checkmarx One Integrations](../../authentication-for-checkmarx-one-cli-and-plugins/creating-an-oauth-client-for-checkmarx-one-integrations.md). |
    | GITLAB_TOKEN<br>(for v2) | Generate a GitLab Personal Access Token with the scope \`API\`, and submit the value in this variable. This will enable Checkmarx One to decorate the merge request with the scan results summary. |
-   | CX_LINK_SERVER_HOST<br>(for v2, optional) | Generate a CxLink, as described here, and submit the value in this variable. This will enable Checkmarx One to decorate the merge request with the scan results summary for private repos that aren't accessible externally. |
+   | CX_LINK_SERVER_HOST<br>(for v2, optional) | Generate a CxLink, as described [here](../../../user-guide/cxlink.md), and submit the value in this variable. This will enable Checkmarx One to decorate the merge request with the scan results summary for private repos that aren't accessible externally. |
 
    <figure><img src="../../../../assets/6143311909.png" alt="" width="648"><figcaption></figcaption></figure>
 

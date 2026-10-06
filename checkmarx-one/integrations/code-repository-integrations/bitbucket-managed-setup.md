@@ -106,4 +106,4 @@ To integrate your **Bitbucket** organization with Checkmarx One, perform the fol
 
 ## Editing Project Settings
 
-In order to update settings for an individual code repository project, see Code Repository Project Settings. To update scanner and permission settings for all projects in an organization at once, see Code Repository Settings.
+In order to update settings for an individual code repository project, see Code Repository Project Settings. To update scanner and permission settings for all projects in an organization at once, see [Code Repository Settings](../../user-guide/configuring-account-settings/global-account-settings/code-repository-settings.md).

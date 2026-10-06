@@ -447,7 +447,7 @@ Container Security has a specialized set of filter settings that enable users to
 - `--containers-image-tag-filter` - Exclude images by image name and/or tag.
 - `--containers-exclude-non-final-stages` - Scan only the final deployable image.
 
-For additional details about the usage and syntax for these filters, see Container Security Filter Usage.
+For additional details about the usage and syntax for these filters, see [Container Security Filter Usage](../../../user-guide/container-security/container-security-filter-usage.md).
 
 ### Apply ".gitignore" Exclusions
 
@@ -596,7 +596,7 @@ For PDF reports, use the following flags to specify email recipients and to spec
 ./cx scan create --project-name <Project Name> -s <path> --branch <branch name> --report-format pdf --report-pdf-email <recipient_email> --report-pdf-options <specify_sections>
 ```
 
-For information about the content of scan reports, see Scan Reports and .
+For information about the content of scan reports, see [Scan Reports](../../../user-guide/checkmarx-one-reports/scan-reports.md) and .
 
 ### SBOM Reports
 

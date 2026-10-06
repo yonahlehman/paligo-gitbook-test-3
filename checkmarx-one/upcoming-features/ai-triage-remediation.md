@@ -225,7 +225,7 @@ The **AI Triage & Remediation** dashboard provides an overview of how AI Triage 
 AI Triage and AI Remediation consume **Checkmarx Credits**. Credits are used each time that a Triage or Remediation action is run. If triage has already run on a risk and it is triggered again for an identical instance, it will not run again and no credits will be used.
 
 {% hint style="warning" %}
-However, when the Group Similar Results setting for SAST is changed, previously run AI Triage is no longer applicable. Therefore, if you subsequently run AI Triage on the same result, AI Triage will run again and consume additional credits.
+However, when the [Group Similar Results](../user-guide/managing-triaging-vulnerabilities/triaging-sast-results/account-settings-for-grouping-similar-results.md) setting for SAST is changed, previously run AI Triage is no longer applicable. Therefore, if you subsequently run AI Triage on the same result, AI Triage will run again and consume additional credits.
 {% endhint %}
 
 Checkmarx One provides both a high-level summary of your available credits and detailed reporting on credit consumption.

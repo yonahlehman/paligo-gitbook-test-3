@@ -170,7 +170,7 @@ There is a hard limit of 5 sessions of Query Editor that may run at a time and a
 Common queries cannot be edited in the Query Browser.
 {% endhint %}
 
-For more information about Query Editor, see SAST Query Editor.
+For more information about Query Editor, see [SAST Query Editor](../../user-guide/resource-management/sast-query-editor/README.md).
 
 ### Presets
 
@@ -180,7 +180,7 @@ Preset management is a new way to control standard/predefined presets. It provid
 
 Presets are mandatory for the SAST scanner. If no preset is selected for a SAST scan, the default preset that will be used for the scan is **ASA Premium**.
 
-For more information about Presets, see SAST Presets Management.
+For more information about Presets, see [SAST Presets Management](../../user-guide/resource-management/sast-presets-management.md).
 
 ## In this section
 

@@ -17,7 +17,7 @@ Checkmarx Audit complements Checkmarx IaC Security by enabling you to quickly an
 
 Audit can be used to adapt IaC Security's basic security functionality to non-standard code. This helps eliminate false positives and ensure that all real vulnerabilities are identified. Audit can also expand IaC Security's functionality to include queries supporting specific QA or application logic needs.
 
-For more information about Query Editor, see IaC Security Query Editor.
+For more information about Query Editor, see [IaC Security Query Editor](../../user-guide/resource-management/iac-security-query-editor.md).
 
 ### IaC Security Presets
 

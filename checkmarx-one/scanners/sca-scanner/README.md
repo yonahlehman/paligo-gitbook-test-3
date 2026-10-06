@@ -52,7 +52,7 @@ If that path exists, the finding is flagged as an Exploitable Path: a real, trac
 
 #### Enabling Exploitable Path
 
-Exploitable Path only runs on Projects for which it has been activated. You can activate it during Project Creation or by editing Project Settings. You can also set it as your account's default for all new Projects, via Account Settings.
+Exploitable Path only runs on Projects for which it has been activated. You can activate it during [Project Creation](../../user-guide/managing-projects/creating-projects.md) or by editing Project Settings. You can also set it as your account's default for all new Projects, via [Account Settings](../../user-guide/configuring-account-settings/global-account-settings/README.md).
 
 {% hint style="info" %}
 Activating the feature globally does not retroactively activate Exploitable Path for Projects that were created before the activation.
@@ -110,7 +110,7 @@ The **SCA Global Inventory and Risks** page displays a comprehensive list of all
 
 With the addition of **bulk triage actions** in the Global Inventory, managing these risks at scale has become even more efficient. You can now select multiple items and triage them all at once across the **Packages**, **Vulnerabilities and Malware**, and **Licenses** tabs. For example, if you determine that a particular package is not a concern, you can search for all its instances in the Packages tab and mark them all as *Muted* with a single action. This capability streamlines large-scale triage workflows and saves time by enabling consistent decisions to be applied across the entire tenant.
 
-For instructions on how to view the SCA Global Inventory, see Global Inventory.
+For instructions on how to view the SCA Global Inventory, see [Global Inventory](../../user-guide/global-inventory.md).
 
 ### SCA Resolver
 
@@ -215,13 +215,13 @@ The following factors will affect the recalculated scan results:
 - Checkmarx has identified new vulnerabilities associated with the dependencies in your project since the previous scan.
 - If you have changed the Policies that apply to your project since the last scan, the policy violations for the project will be updated.
 
-To view the procedure for recalculating SCA scans, see Running Scan Recalculation.
+To view the procedure for recalculating SCA scans, see [Running Scan Recalculation](../../user-guide/scanning-projects/recalculating-sca-scan-results/running-scan-recalculation.md).
 
 ### Scan Reports and SBOM Reports
 
-Results from the SCA scanner are returned together with results from other scanners in Checkmarx One Scan Reports and Projects Reports. See Checkmarx One Reports
+Results from the SCA scanner are returned together with results from other scanners in Checkmarx One Scan Reports and Projects Reports. See [Checkmarx One Reports](../../user-guide/checkmarx-one-reports/README.md)
 
-In addition, you can generate specialized SCA scan reports as well as Software Bill of Materials (SBOM) reports based on the packages identified by SCA.
+In addition, you can generate specialized [SCA scan reports](../../user-guide/checkmarx-one-reports/sca-package-reports/sca-scan-reports/README.md) as well as [Software Bill of Materials (SBOM)](../../user-guide/checkmarx-one-reports/checkmarx-one-sbom-reports/README.md) reports based on the packages identified by SCA.
 
 ### Scanning SBOMs
 

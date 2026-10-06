@@ -1,6 +1,6 @@
 # tenant
 
-The `tenant` command enables users to retrieve info about the global settings that apply to their tenant account (i.e., the info shown on the Account Settings screen in the web portal). For more information about settings, see Global Account Settings.
+The `tenant` command enables users to retrieve info about the global settings that apply to their tenant account (i.e., the info shown on the Account Settings screen in the web portal). For more information about settings, see [Global Account Settings](../../../user-guide/configuring-account-settings/global-account-settings/README.md).
 
 ## Usage
 

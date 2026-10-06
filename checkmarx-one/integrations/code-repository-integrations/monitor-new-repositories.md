@@ -11,7 +11,7 @@ This feature is controlled by the **Automatically sync new projects created for 
 
 Once enabled, Checkmarx One starts listening to the **repository creation** events inside your code repository platform.
 
-To learn how to view or change this setting after import, see Code Repository Settings.
+To learn how to view or change this setting after import, see [Code Repository Settings](../../user-guide/configuring-account-settings/global-account-settings/code-repository-settings.md).
 
 ## How it Works
 
@@ -22,7 +22,7 @@ A project in Checkmarx One will be created for:
 
 The new project follows the naming convention `<organization>/<repository>`.
 
-After the project is created, its scan triggers and scan types settings are inherited from the parent organization's configuration - see Code Repository Settings for details.
+After the project is created, its scan triggers and scan types settings are inherited from the parent organization's configuration - see [Code Repository Settings](../../user-guide/configuring-account-settings/global-account-settings/code-repository-settings.md) for details.
 
 ## Limitations
 

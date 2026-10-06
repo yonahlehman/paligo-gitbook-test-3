@@ -2,7 +2,7 @@
 
 The following table shows the configuration options available for the SCA scanner. These configuration options can be applied on the **Account** > **Project** > **Scan** levels. These configurations can be set via the web application (UI), CLI or API, as shown in the table below.
 
-In addition, the Container Security scanner supports a **Configure as Code** file, which can be added directly to the repository or included in the ZIP file being scanned. For more information, see Configuring Projects Using Config as Code Files
+In addition, the Container Security scanner supports a **Configure as Code** file, which can be added directly to the repository or included in the ZIP file being scanned. For more information, see [Configuring Projects Using Config as Code Files](../../user-guide/managing-projects/configuring-projects-using-config-as-code-files/README.md)
 
 {% hint style="info" %}
 CLI flags are submitted on the scan level with the [scan create](../../cli-tool/checkmarx-one-cli-commands/scan/scan-create.md) command. API configs can be configured on the account or project level using the [Scan Configuration](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/cs61sszap44td-scan-configuration-service) APIs or on the scan level as part of the request body of the [POST /scans](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/i20w1fceb1l15-run-a-scan) API. When using the POST /scans API the `scan.config.containers` prefix is left out.

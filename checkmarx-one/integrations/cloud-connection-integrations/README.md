@@ -16,7 +16,7 @@ The following table shows which Checkmarx One services make use of each of the i
 | Quay | Private Registries | <img src="../../../assets/Check_New.png" alt="" data-size="line"> | COMING SOON | <img src="../../../assets/MicrosoftTeams-image__1_.png" alt="" data-size="line"> |
 | ACR | Private Registries | <img src="../../../assets/Check_New.png" alt="" data-size="line"> | COMING SOON | <img src="../../../assets/MicrosoftTeams-image__1_.png" alt="" data-size="line"> |
 
-1\] There is a separate method for integrating Sysdig with Cloud Insights, as described in Setting up Cloud Insights Integration with Sysdig.
+1\] There is a separate method for integrating Sysdig with Cloud Insights, as described in [Setting up Cloud Insights Integration with Sysdig](../../user-guide/cloud-insights/setting-up-cloud-insights-integration-with-sysdig.md).
 
 ## In this section
 

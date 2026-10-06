@@ -333,7 +333,7 @@ Additional details about the usage and syntax for these filters is available in 
 
 ## Policy Management
 
-In the context of the Checkmarx One Policy Management feature, there are specialized conditions related to the Container Security scanner that can be used to create policy rules. For more info, see Container Security Conditions.
+In the context of the Checkmarx One [Policy Management](../../user-guide/policy-management-overview/README.md) feature, there are specialized conditions related to the Container Security scanner that can be used to create policy rules. For more info, see Container Security Conditions.
 
 ## Authentication for Scanning Registries Locally
 

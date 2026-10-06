@@ -78,7 +78,7 @@ The following section describes how to create a new workflow with a Checkmarx On
 GitHub Actions supports running Container Security scans on images that are stored in private container registries.
 
 {% hint style="info" %}
-If you have set up a Checkmarx One integration with your private registry, as described [here](../../../../scanners/container-security/private-registry-integration-for-container-security-scanner/README.md), then you can run the standard GitHub Action, which runs the container scan in the cloud.
+If you have set up a Checkmarx One integration with your private registry, as described [here](../../../../user-guide/container-security/private-registry-integration-for-container-security-scanner/README.md), then you can run the standard GitHub Action, which runs the container scan in the cloud.
 {% endhint %}
 
 ### Procedure for Scanning Private Registries

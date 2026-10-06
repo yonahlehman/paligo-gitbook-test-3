@@ -1,0 +1,15 @@
+# IaC Security Scanner Parameters
+
+When configured globally, these parameters will apply to IaC Security scans across all projects. When configured at the project level, they will apply only to IaC Security scans for that project.
+
+The table below presents all the optional parameters and their values.
+
+{% hint style="info" %}
+CLI flags are submitted on the scan level with the [scan create](../../../cli-tool/checkmarx-one-cli-commands/scan/scan-create.md) command. API configs can be configured on the account or project level using the [Configuration](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/cs61sszap44td-scan-configuration-service) API or on the scan level as part of the request body of the [POST /scans](https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/cs61sszap44td-scan-configuration-service) API. When using the POST /scans API the `scan.config.kics` prefix is left out.
+{% endhint %}
+
+| **Parameter** | **Values** | **Notes** | CLI | API | Config as Code |
+|---|---|---|---|---|---|
+| **Folder/file filter** | Allow users to select specific folders or files to include or exclude from the code-scanning process. | • Including a file type - \*.java; .tf<br>• Excluding a file type - !\*.java; !.yaml<br>• Use “,” sign to chain file types, for example: .tf,.json<br>for example: \**.*java*,*\*.js<br>• The parameter also supports including/excluding folders.<br>• regex is not supported. | `--iac-security-filter <string>` | scan.config.kics.filter<br>`  {`<br>` "key": "scan.config.kics.filter",`<br>` "value": "*.java",`<br>` "allowOverride": true`<br>` }` | `filter` |
+| **Platforms** | • Ansible<br>• Azure Blueprints<br>• AzureResourceManager<br>• Buildah<br>• CICD<br>• CloudFormation<br>• CDK<br>• Crossplane<br>• Docker<br>• Docker Compose<br>• Dockerfile<br>• Google Deployment Manager<br>• gRPC<br>• Helm<br>• Knative<br>• Kubernetes<br>• OpenAPI<br>• Pulumi<br>• SAM<br>• ServerlessFW<br>• Terraform | {% hint style="info" %}<br>Configure one or more platforms, separated by a comma.<br><br>The parameter means you only want to run scans (queries) for those platforms.<br><br>For example, Ansible, CloudFormation, Dockerfile<br>{% endhint %}<br>{% hint style="warning" %}<br>Any mistake in the platform characters will cause an error.<br>{% endhint %} | `--iac-security-platforms <string>, <string>` | scan.config.kics.platforms<br>` {`<br>` "key": "scan.config.kics.platforms",`<br>` "value": "GRPC",`<br>` "allowOverride": true`<br>` }` | `platforms` |
+| **Preset Name** | All the available IaC Security Presets that exist in the system | There are no Checkmarx Default Presets now. For more information on IaC presets, see [here](../../resource-management/iac-security-presets-management.md).<br>{% hint style="warning" %}<br>The preset ID for IaC Security must be a valid UUID. Once you create one, you can copy the **PresetID** from the IaC Presets page.<br>{% endhint %} | | scan.config.kics.presetId<br>` {`<br>` "key": "scan.config.kics.presetId",`<br>` "value": "047be3a8-c9d6-4c02-90d5-c243418c7d8a",`<br>` "allowOverride": true`<br>` }` | `presetId` |

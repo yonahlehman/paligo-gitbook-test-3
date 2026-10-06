@@ -7,7 +7,7 @@ Checkmarx One is a robust platform that supports full integration into your SDLC
 - **Code Repository Integrations** - We support integration with most of the popular SCM platforms. You can set up SCM integrations using the web application by “Importing” a project from your SCM. You can activate automated scanning of your source code whenever the project is updated. Checkmarx One listens for commit events and uses a webhook to trigger Checkmarx scans when a push, or a pull request occurs. See [Checkmarx One SCM Integrations](code-repository-integrations/README.md)
 
   {% hint style="info" %}
-  It is also possible to migrate an existing manual project and convert it to a Code Repository Integration project, see Project Migration.
+  It is also possible to migrate an existing manual project and convert it to a Code Repository Integration project, see [Project Migration](../user-guide/checkmarx-one-integrations.md).
   {% endhint %}
 - **Feedback App Integrations** - Send scan results and new SCA vulnerability detection notifications directly to the relevant parties through your bug tracking and team collaboration tools. See [Feedback Apps](feedback-apps/README.md)
 - **Cloud Connection Integrations** - Connect to your private registries in order to enable Checkmarx One to access images in your registries. This enables Checkmarx One to scan the images for risks and gather related to Cloud Insights.

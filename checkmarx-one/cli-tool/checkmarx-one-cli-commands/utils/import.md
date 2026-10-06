@@ -1,6 +1,6 @@
 # import
 
-The `import` command is used to import vulnerability results that adhere to SARIF version 2.1.0 format from third-party security tools and services (i.e. the BYOR feature). These imported results are integrated into the Application Risk Management feature, providing organizations with a unified view of their application risk profile and enabling them to make informed decisions to secure their end-to-end application lifecycle.
+The `import` command is used to import vulnerability results that adhere to SARIF version 2.1.0 format from third-party security tools and services (i.e. the [BYOR](../../../user-guide/application-security-posture-management/bring-your-own-results-byor.md) feature). These imported results are integrated into the [Application Risk Management](../../../user-guide/application-security-posture-management/application-risk-management/using-application-risk-management.md) feature, providing organizations with a unified view of their application risk profile and enabling them to make informed decisions to secure their end-to-end application lifecycle.
 
 The command is submitted with the `--project-name` attribute specifying the name of the Checkmarx One project that these results will be associated with. It is also submitted with the `--import-file-path` argument specifying the path to the import file.
 

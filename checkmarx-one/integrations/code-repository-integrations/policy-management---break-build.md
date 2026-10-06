@@ -10,7 +10,7 @@ The break build behavior will only be effective if you configure your SCM to blo
 
 ## Configuring a Policy Rule to Break Build
 
-1. Create a policy, including creating one or more rules for the policy, as described in Creating a Policy.
+1. Create a policy, including creating one or more rules for the policy, as described in [Creating a Policy](../../user-guide/policy-management-overview/creating-a-policy/README.md).
 2. Turn **ON** the toggle in the **Break the build upon violations** section:
 
    <figure><img src="../../../assets/breakbuild.png" alt="" width="576"><figcaption></figcaption></figure>
