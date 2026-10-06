@@ -117,11 +117,11 @@ This is different from the [SBOM File Analysis API](https://checkmarx.stoplight.
 ### Using the web portal
 
 1. On the **Application and Projects** home page select the **Projects** tab.
-2. Hover over the row of the project that you would like to scan, click on the Scan icon .
+2. Hover over the row of the project that you would like to scan, click on the Scan icon ![](../../../assets/Scan_Management.png).
 
    ![](../../../assets/Image_1811.png)
 
-   The **New Scan** window opens. By default, under **Project Name**, the project of the row in which you clicked the Scan icon is selected.
+   The **New Scan** window opens. By default, under **Project Name**, the project of the row in which you clicked the Scan icon![](../../../assets/Scan_Management.png) is selected.
 
    ![](../../../assets/Image_1812.png)
 

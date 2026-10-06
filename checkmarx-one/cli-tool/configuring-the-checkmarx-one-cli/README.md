@@ -94,7 +94,7 @@ These values can be stored in the CLI configuration or provided using the `--bas
 
   **To generate an API Key:**
 
-  1. Log in to the Checkmarx One web portal and select **Settings > Identity and Access Management** in the main navigation.
+  1. Log in to the Checkmarx One web portal and select **Settings ![](../../../assets/Settings.png)> Identity and Access Management** in the main navigation.
 
      The IAM portal opens.
   2. In the main navigation, click **API Keys**, then click on the **Create Key** button.
@@ -170,7 +170,7 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
 
   **To create an OAuth Client:**
 
-  1. Log in to Checkmarx One and click on **Settings > Identity and Access Management** in the Menu panel.
+  1. Log in to Checkmarx One and click on **Settings ![](../../../assets/Settings.png)> Identity and Access Management** in the Menu panel.
 
      ![](../../../assets/Settings_IAM.png)
   2. In the **Identity and Access Management** console, click **OAuth Clients** and then click **Create Client**.

@@ -58,7 +58,7 @@ To view results, click **View Results**. The Risks table appears. It lists the r
 
 | Parameter | Description |
 |---|---|
-| **Severity**![](../../../assets/Severity.png) | Indicates the risk severity as follows:<br>• **Critical**<br>• **High**<br>• **Medium**<br>• **Low**<br>• **Info** |
+| **Severity**![](../../../assets/Severity.png) | Indicates the risk severity as follows:<br>• ![](../../../assets/Image_1339.png)**Critical**<br>• ![](../../../assets/Image_1337.png)**High**<br>• ![](../../../assets/Image_1335.png)**Medium**<br>• ![](../../../assets/Image_1334.png)**Low**<br>• ![](../../../assets/Image_1331.png)**Info** |
 | **Risk Name** | The name of the risk. |
 | **Status** | Indicates the status of the risk as follows:<br>![](../../../assets/New.png)- A newly detected vulnerability.<br>![](../../../assets/Recurrent_List.png)- The vulnerability has been detected at least once before. |
 | **Endpoint Path** | The end path of the resource URL. |

@@ -2,7 +2,7 @@
 
 **To view Repository Health (Scorecard) scan results:**
 
-1. Go to the **Workspace** > **Projects** page and hover over the Results button for the desired project.
+1. Go to the **Workspace** ![](../../../assets/Workspace.png)> **Projects** page and hover over the Results button for the desired project.
 2. Select the **SCS** scanner.
 
    ![](../../../assets/Image_2082.png)

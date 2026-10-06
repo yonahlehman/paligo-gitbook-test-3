@@ -102,7 +102,7 @@ Create a policy that will grant permission to interact with the ECR registry and
 
 **To set up an ECR integration:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, hover over the **ECR** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
@@ -131,5 +131,5 @@ You can monitor the status of your ECR integrations to see whether or not the in
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.

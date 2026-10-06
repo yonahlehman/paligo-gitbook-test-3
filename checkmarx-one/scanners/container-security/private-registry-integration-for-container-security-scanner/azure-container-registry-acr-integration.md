@@ -13,7 +13,7 @@ Checkmarx One provides an integration with Azure Container Registry (ACR), enabl
 
 **To set up an Azure Container Registry Integration:**
 
-1. In the main menu, select **Integrations** > **Cloud Connections**.
+1. In the main menu, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, hover over the **ACR** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
@@ -39,5 +39,5 @@ You can monitor the status of your ACR integrations to verify whether the integr
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.

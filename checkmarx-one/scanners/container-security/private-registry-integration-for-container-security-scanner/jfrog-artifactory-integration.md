@@ -18,7 +18,7 @@ We provide a convenient wizard on the Checkmarx One **Integrations** page that e
 
 **To set up a JFrog Artifactory Private Registry Integration:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, hover over the **JFrog Artifactory** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
@@ -51,5 +51,5 @@ You can monitor the status of your JFrog integrations to see whether or not the 
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.

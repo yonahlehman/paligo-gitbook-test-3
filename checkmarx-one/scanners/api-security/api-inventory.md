@@ -1,6 +1,6 @@
 # API Inventory
 
-To access the API Inventory from the main menu, select **Resources > API Inventory**.
+To access the API Inventory from the main menu, select **Resources ![](../../../assets/Resources.png)> API Inventory**.
 
 The **Global API Inventory** is divided into two tabs: **Inventory**, which lists all APIs detected across all projects on the platform, and **Risks**, which lists all API risks detected across all projects on the platform. In both tabs, you can filter the table by column and export the displayed results as a CSV file.
 

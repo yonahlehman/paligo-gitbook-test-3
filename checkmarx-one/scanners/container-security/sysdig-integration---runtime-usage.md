@@ -20,7 +20,7 @@ It is possible to set up several separate Sysdig integrations in your account, f
 
 **To set up a Sysdig integration:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Setup** tab, under **Runtime & Cloud**, hover over the **Sysdig** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
@@ -39,7 +39,7 @@ It is possible to set up several separate Sysdig integrations in your account, f
 7. In the **Clusters** field, select the clusters you would like to include in the integration (multi-select).
 8. Click **Save**.
 
-   The integration is set up and you are redirected to the **Integrations** > **Cloud Connections** tab where you can monitor the connection status. After a few minutes the integration should be **Connected**. Once connected, in the Container Security scan results you will begin seeing runtime data.
+   The integration is set up and you are redirected to the **Integrations** ![](../../../assets/Integrations.png)> **Cloud Connections** tab where you can monitor the connection status. After a few minutes the integration should be **Connected**. Once connected, in the Container Security scan results you will begin seeing runtime data.
 
    {% hint style="info" %}
    Runtime data is only shown for images that were scanned via the CLI using the `--container-images` flag.
@@ -55,7 +55,7 @@ You can monitor the status of your Sysdig integrations to see whether or not the
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.
 
    The different statuses are indicated as follows:

@@ -63,9 +63,9 @@ Code Viewer section includes the following functionalities:
 - The panel can be resized by dragging the bottom bar, which resizes the code viewer section vs. the vulnerabilities section.
 - An additional panel is integrated within the Code Viewer panel, containing the following options:
 
-  - **Changes** - Includes information about **Severity** and/or **State** changes that were performed for a specific vulnerability, in addition to added **Comments**.
-  - **Notes** - Includes all the comments that were added for a specific vulnerability.
-  - **Description** - Shows a brief description of this vulnerability. The bottom section shows the file where the vulnerability was identified, as well as the problematic “value” and the “expected value” for that element.
+  - **Changes** ![](../../../assets/Flow.png)- Includes information about **Severity** and/or **State** changes that were performed for a specific vulnerability, in addition to added **Comments**.
+  - **Notes** ![](../../../assets/Note.png)- Includes all the comments that were added for a specific vulnerability.
+  - **Description** ![](../../../assets/Info.png)- Shows a brief description of this vulnerability. The bottom section shows the file where the vulnerability was identified, as well as the problematic “value” and the “expected value” for that element.
 
 ### Opening Code Viewer
 

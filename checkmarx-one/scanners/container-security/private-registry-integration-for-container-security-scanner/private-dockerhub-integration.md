@@ -18,7 +18,7 @@ Checkmarx One provides an integration with Private DockerHub, enabling you to au
 
 **To set up a Private DockerHub Integration:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, click on the **Private DockerHub** tile.
 3. In the side panel that opens, click **Start**.
 
@@ -43,5 +43,5 @@ You can monitor the status of your private DockerHub integrations to see whether
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.

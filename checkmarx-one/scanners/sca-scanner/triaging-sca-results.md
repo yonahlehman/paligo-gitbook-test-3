@@ -127,7 +127,7 @@ Below are tables describing the various VEX fields that define the exploitabilit
 3. Click on a risk to open the **Risk Details** page for that risk.
 4. Click on the **Edit** button.
 
-   ![](../../../assets/Image_028.png)
+   ![](../../../assets/Image_028-57302227.png)
 
    The **Management of Risk** panel opens.
 
@@ -325,7 +325,7 @@ Use the procedure below to triage items across projects in the Global Inventory.
 This procedure demonstrates how to triage a package across multiple projects. The steps for triaging vulnerabilities, malware risks, or licenses are the same—navigate to the **Vulnerabilities and Malware** or **Licenses** tab and follow the procedure described below.
 {% endhint %}
 
-1. Access the **Global Inventory and Risks** page by clicking on the **Resources > SCA Inventory and Risks** in the main navigation.
+1. Access the **Global Inventory and Risks** page by clicking on the **Resources ![](../../../assets/Resources.png)> SCA Inventory and Risks** in the main navigation.
 
    ![](../../../assets/Global-inventory-and-risks.png)
 2. Use the search bar to find the particular package you want to triage.

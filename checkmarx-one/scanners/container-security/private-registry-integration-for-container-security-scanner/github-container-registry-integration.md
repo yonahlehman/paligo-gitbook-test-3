@@ -14,7 +14,7 @@ Checkmarx One provides an integration with GitHub Container Registry (GHCR), ena
 
 **To set up a GitHub Private Registry Integration:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, hover over the **GitHub** tile and click on **Configuration.**
 3. In the side panel that opens, click **Start**.
 
@@ -39,5 +39,5 @@ You can monitor the status of your GitHub integrations to see whether or not the
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** > **Cloud Connections**.
+1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.
