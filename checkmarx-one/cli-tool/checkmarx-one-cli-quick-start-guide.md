@@ -32,7 +32,9 @@ This quick-start tutorial describes how to authenticate using an API Key. For al
 
 1. Generate a Checkmarx One API Key for authentication.
 
-   ## Generating an API Key
+   <details>
+
+   <summary>Generating an API Key</summary>
 
    You can generate an API Key by logging in to Checkmarx One and generating a new API Key, as described below. Alternatively, an API Key can be generated using the Authentication API.
 
@@ -75,7 +77,7 @@ This quick-start tutorial describes how to authenticate using an API Key. For al
    The roles (permissions) assigned to the API Key are inherited from the user account that generates the key. Therefore, make sure that you are logged in to an account with the appropriate roles.
    {% endhint %}
 
-   ### Generating an API Key
+   ## Generating an API Key
 
    {% embed url="https://vimeo.com/1083267558" %}
 
@@ -114,6 +116,8 @@ This quick-start tutorial describes how to authenticate using an API Key. For al
    {% hint style="info" %}
    You can obtain a curl for submitting the request for an access token, by clicking on **Show details** and copying the content.
    {% endhint %}
+
+   </details>
 2. Open the CLI on your machine and navigate to the CLI tool file location.
 3. Run the `cx configure` command.
 

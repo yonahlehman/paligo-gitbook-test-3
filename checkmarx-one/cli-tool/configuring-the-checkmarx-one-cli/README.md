@@ -53,7 +53,9 @@ These values can be stored in the CLI configuration or provided using the `--bas
 
   To generate an API Key use the following procedure:
 
-  ## Creating an API Key for Checkmarx One Integrations
+  <details>
+
+  <summary>Creating an API Key for Checkmarx One Integrations</summary>
 
   You can generate an API Key by logging in to Checkmarx One and generating a new API Key, as described below. Alternatively, an API Key can be generated using the Authentication API.
 
@@ -92,7 +94,7 @@ These values can be stored in the CLI configuration or provided using the `--bas
      </details>
   2. Log in to your Checkmarx One account by entering your *Tenant Account*, *Username* and *Password*.
 
-  ### Generating an API Key
+  ## Generating an API Key
 
   {% embed url="https://vimeo.com/1083267558" %}
 
@@ -132,6 +134,8 @@ These values can be stored in the CLI configuration or provided using the `--bas
   You can obtain a curl for submitting the request for an access token, by clicking on **Show details** and copying the content.
   {% endhint %}
 
+  </details>
+
 {% hint style="info" %}
 The CLI automatically extracts all relevant account info (Base URL, Auth URL, Tenant name) from the API Key. You can use arguments to submit these values explicitly, overriding the extracted values. However, this is generally not recommended.
 {% endhint %}
@@ -144,7 +148,9 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
 
   To create an OAuth client, use the following procedure:
 
-  ## Creating an OAuth Client for Checkmarx One Integrations
+  <details>
+
+  <summary>Creating an OAuth Client for Checkmarx One Integrations</summary>
 
   You can create an OAuth Client by logging in to Checkmarx One and creating a new client.
 
@@ -152,7 +158,7 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
   If the new access management is enabled, the OAuth client must be granted resource-level authorization (at the tenant, application, or project level) to function properly.
   {% endhint %}
 
-  ### Logging in to Checkmarx One
+  ## Logging in to Checkmarx One
 
   **To log in to Checkmarx One:**
 
@@ -163,7 +169,7 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
      To create an OAuth Client, you need to be signed in as an admin user.
      {% endhint %}
 
-  ### Creating an OAuth Client
+  ## Creating an OAuth Client
 
   To create an OAuth Client, you must have the following permissions:
 
@@ -219,6 +225,8 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
      Alternatively, you can use the combination of the following roles: CxOne composite role `ast-scanner`, CxOne role `view-policy-management` (not required for IDE plugins) and IAM role `default-roles`.
      {% endhint %}
   10. Click **Save Client**.
+
+  </details>
 
 ## In this section
 
