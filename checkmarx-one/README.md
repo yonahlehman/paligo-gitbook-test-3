@@ -11,5 +11,6 @@ Placeholder for the Checkmarx One section.
 - [Checkmarx MCP Server](mcp-server/README.md)
 - [Checkmarx One Integrations](integrations/README.md)
 - [Checkmarx One CLI Tool](cli-tool/README.md)
+- [Checkmarx One IDE Plugins](ide-plugins/README.md)
 - [Checkmarx One API Documentation](api-documentation/README.md)
 - [Checkmarx One Support Content](support-content/README.md)

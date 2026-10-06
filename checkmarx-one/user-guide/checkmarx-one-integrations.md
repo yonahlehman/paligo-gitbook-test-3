@@ -62,7 +62,7 @@ For comprehensive info about these plugins, see the relevant documentation secti
 
 - [Checkmarx One CLI Tool](../cli-tool/README.md)
 - [CI/CD Integrations](../integrations/cicd-integrations/README.md)
-- Checkmarx One IDE Plugins
+- [Checkmarx One IDE Plugins](../ide-plugins/README.md)
 - [Checkmarx One Vulnerability Integration with ServiceNow](../integrations/checkmarx-one-vulnerability-integration-with-servicenow/README.md)
 
 ### Project Migration

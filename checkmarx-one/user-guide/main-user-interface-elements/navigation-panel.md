@@ -61,7 +61,7 @@ Manage your integrations. Checkmarx One supports integration with code repositor
 |---|---|---|
 | Feedback Apps | The **Feedback Apps** screen lets you create alerts in email or team collaboration apps. Alerts can be triggered by scan completion or vulnerability detection. | To connect and configure feedback apps, see [Feedback Apps](../checkmarx-one-integrations.md#feedback-apps). |
 | Cloud Connections | The **Cloud Connections** screen lets you set up and configure private container repos to automatically pull images for scanning and runtime usage. | To set up an integration, read the guide for each repository under [Private Registry Integration for Container Security Scanner](../container-security/private-registry-integration-for-container-security-scanner/README.md).<br>To set up a Sysdig integration, see [Sysdig Integration - Runtime Usage](../container-security/sysdig-integration---runtime-usage.md). |
-| External Plugins | The **External Plugins** screen lets you download and view the source code for CLI, CI/CD, IDE, and vulnerability management plugins. | To see all IDE plugins and their features, see Checkmarx One IDE Plugins. |
+| External Plugins | The **External Plugins** screen lets you download and view the source code for CLI, CI/CD, IDE, and vulnerability management plugins. | To see all IDE plugins and their features, see [Checkmarx One IDE Plugins](../../ide-plugins/README.md). |
 | Project Migration | The **Project Migration** screen lets you convert and export Checkmarx One projects to an external code repository. | To learn how to perform single-project and multi-project migrations to a cloud-hosted or self-hosted flow, see [Project Migrations](../managing-projects/project-migration.md). |
 
 </details>
