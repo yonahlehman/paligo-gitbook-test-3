@@ -516,7 +516,7 @@ To use the SCA Resolver, you need to add the **--sca-resolver** flag to your com
 When running a CLI scan that uses SCA Resolver, the source code must be in a local folder, not in a zip archive or a code repository.
 {% endhint %}
 
-The Delta Scan feature will run by default on the CxOne CLI (since version 2.3.44) scans using SCAResolver (since version 2.13.3). To disable this feature, use the **--sca-resolver-params** flag with the argument **--disable-delta-scan**. For more information on this feature, see Delta Scans.
+The Delta Scan feature will run by default on the CxOne CLI (since version 2.3.44) scans using SCAResolver (since version 2.13.3). To disable this feature, use the **--sca-resolver-params** flag with the argument **--disable-delta-scan**. For more information on this feature, see [Delta Scans](../scanners/sca-scanner/README.md).
 
 To add additional arguments to Checkmarx SCA Resolver, use the flag **--sca-resolver-params** with any additional arguments that you need. If necessary to use spaces and/or quotes, wrap the arguments in double quotes and use single quotes inside the value. For a complete list of SCA Resolver configuration arguments, see Checkmarx SCA Resolver Configuration Arguments.
 
@@ -687,12 +687,12 @@ For DockerHub authentication make sure that your environment variables are set a
    ```
 
    {% hint style="info" %}
-   For additional details about precise syntax for container references, see Scanning Specific Images and Scanning Container Images via Checkmarx One CLI - Flag Validation and Best Practices.
+   For additional details about precise syntax for container references, see Scanning Specific Images and [Scanning Container Images via Checkmarx One CLI - Flag Validation and Best Practices](../scanners/container-security/scanning-container-images-via-checkmarx-one-cli---flag-validation-and-best-practices.md).
    {% endhint %}
 
 ### Running Secret Detection and Repository Health Scans
 
-When running a scan via the CLI tool, the Secret Detection and Repository Health (OSSF) scanners are grouped together under Software Supply Chain Security (SCS) scanner.
+When running a scan via the CLI tool, the [Secret Detection](../scanners/secret-detection/README.md) and [Repository Health (OSSF)](../scanners/repository-health-ossf-scorecard/README.md) scanners are grouped together under Software Supply Chain Security (SCS) scanner.
 
 {% hint style="info" %}
 When running the Scorecard scanner, it is mandatory to submit the repo url and an access token with at least read permissions for that repo.
@@ -758,7 +758,7 @@ Requirements:
 - Only the SCA scanner can run on an SBOM
 
 {% hint style="info" %}
-For complete documentation of SBOM scanning, see Scanning SBOMs
+For complete documentation of SBOM scanning, see [Scanning SBOMs](../scanners/sca-scanner/scanning-sboms.md)
 {% endhint %}
 
 **To scan an SBOM:**
@@ -1018,7 +1018,7 @@ Whenever a parameter value (e.g., project name, file location etc.) has a space 
   {% endhint %}
 - `--sbom-only` — Use this flag to run a scan only on the sbom at the specified file path.
 
-  Supported for CycloneDX (v1.0-1.7) and SPDX (v2.3) in xml or json format. For more information, see SBOM documentation.
+  Supported for CycloneDX (v1.0-1.7) and SPDX (v2.3) in xml or json format. For more information, see [SBOM documentation](../scanners/sca-scanner/README.md).
 
   {% hint style="success" %}
   Relevant only when running scans using the SCA scanner.
