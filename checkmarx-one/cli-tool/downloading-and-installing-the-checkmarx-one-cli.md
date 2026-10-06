@@ -103,7 +103,7 @@ For MAC it is recommended to use option 2.
    - For **macOS**: Open the Terminal app (Applications → Utilities → Terminal).
    - For **Linux**: Open your preferred terminal (e.g., GNOME Terminal, Konsole, xterm).
 2. Use the **wget** command in order to download the CLI package:
-3. ![](../../assets/3042574940.png)
+3. <figure><img src="../../assets/3042574940.png" alt="" width="442"><figcaption></figcaption></figure>
 
    **Un-tar** the file:
 

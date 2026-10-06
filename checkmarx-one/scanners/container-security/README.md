@@ -51,7 +51,7 @@ A container scan can be triggered by selecting the **Container Security** scanne
 
 Follow the normal procedure for running a scan, making sure that the **Container Security** scanner is selected.
 
-![](../../../assets/Image_867.png)
+<figure><img src="../../../assets/Image_867.png" alt="" width="432"><figcaption></figcaption></figure>
 
 ### Running Container Security Scans via the CLI
 
@@ -323,7 +323,7 @@ These filters can also be added in the `scan create` command in the CLI, see [Fi
 
 To apply filters on the account level, go to **Global Settings** > **Container Security** section.
 
-![](../../../assets/Global_Settings_-_Container.png)
+<figure><img src="../../../assets/Global_Settings_-_Container.png" alt="" width="497"><figcaption></figcaption></figure>
 
 To apply filters to a specific project, go to the project page > **Settings** tab and add a **Rule** for Container Security, specifying the filter details.
 

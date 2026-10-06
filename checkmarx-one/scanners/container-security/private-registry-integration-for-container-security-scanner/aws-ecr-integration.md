@@ -102,17 +102,17 @@ Create a policy that will grant permission to interact with the ECR registry and
 
 **To set up an ECR integration:**
 
-1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main navigation, select **Integrations** <img src="../../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, hover over the **ECR** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
    The **ECR Integration** wizard opens.
 
-   ![](../../../../assets/Image_1872.png)
+   <figure><img src="../../../../assets/Image_1872.png" alt="" width="360"><figcaption></figcaption></figure>
 4. **Name Your Account** and optionally fill in the **Description** and **Associate Tags** fields, then click **Next**.
 5. In the **Role ARN** field, enter the Role ARN of the ECR role that you created in Step 2.
 
-   ![](../../../../assets/AWSECR.png)
+   <figure><img src="../../../../assets/AWSECR.png" alt="" width="360"><figcaption></figcaption></figure>
 6. In the **External Id** field, enter the ExternalId that you specified in your ECR **Trust policy**.
 7. In the **URL** field, enter the URL of the ECR repo that you would like to allow Checkmarx One to access using the format `<aws_account_id>.dkr.ecr.<region>.amazonaws.com/<repository_name>`.
 
@@ -131,5 +131,5 @@ You can monitor the status of your ECR integrations to see whether or not the in
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main navigation, select **Integrations** <img src="../../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.

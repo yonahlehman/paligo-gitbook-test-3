@@ -7,7 +7,7 @@ The **IaC Security Result** page contains 2 main sections that work in synergy.
 
 ## Vulnerabilities Table
 
-![](../../../assets/Vulnerabilities_Table.png)
+<figure><img src="../../../assets/Vulnerabilities_Table.png" alt="" width="576"><figcaption></figcaption></figure>
 
 The **Vulnerabilities** **Table** displays the list of vulnerabilities that were found during the last IaC Security scan of the Project.
 
@@ -17,7 +17,7 @@ The scan results data is a reflection of a single IaC Security scan.
 
 Vulnerabilities are shown in a nested tree structure with two grouping levels - **Primary** and **Secondary**.
 
-![](../../../assets/6415386101.png)
+<figure><img src="../../../assets/6415386101.png" alt="" width="288"><figcaption></figcaption></figure>
 
 By default, the Primary grouping is by **Platform** and the Secondary grouping is by **Severity**.
 
@@ -33,11 +33,11 @@ You can adjust the Primary and Secondary grouping to any of the column parameter
 - Category
 - File
 
-![](../../../assets/5961285951.png)
+<figure><img src="../../../assets/5961285951.png" alt="" width="432"><figcaption></figcaption></figure>
 
 ### Filtering Vulnerabilities
 
-![](../../../assets/5961023912.png)
+<figure><img src="../../../assets/5961023912.png" alt="" width="432"><figcaption></figcaption></figure>
 
 You can filter the vulnerabilities display by any column.
 
@@ -53,7 +53,7 @@ The following filtering options are available:
 
 ## Code Viewer
 
-![](../../../assets/5961580841.png)
+<figure><img src="../../../assets/5961580841.png" alt="" width="576"><figcaption></figcaption></figure>
 
 The **Code Viewer** section enables viewing a specific source code vulnerability, including its detailed information.
 
@@ -63,9 +63,9 @@ Code Viewer section includes the following functionalities:
 - The panel can be resized by dragging the bottom bar, which resizes the code viewer section vs. the vulnerabilities section.
 - An additional panel is integrated within the Code Viewer panel, containing the following options:
 
-  - **Changes** ![](../../../assets/Flow.png)- Includes information about **Severity** and/or **State** changes that were performed for a specific vulnerability, in addition to added **Comments**.
-  - **Notes** ![](../../../assets/Note.png)- Includes all the comments that were added for a specific vulnerability.
-  - **Description** ![](../../../assets/Info.png)- Shows a brief description of this vulnerability. The bottom section shows the file where the vulnerability was identified, as well as the problematic “value” and the “expected value” for that element.
+  - **Changes** <img src="../../../assets/Flow.png" alt="" data-size="line">- Includes information about **Severity** and/or **State** changes that were performed for a specific vulnerability, in addition to added **Comments**.
+  - **Notes** <img src="../../../assets/Note.png" alt="" data-size="line">- Includes all the comments that were added for a specific vulnerability.
+  - **Description** <img src="../../../assets/Info.png" alt="" data-size="line">- Shows a brief description of this vulnerability. The bottom section shows the file where the vulnerability was identified, as well as the problematic “value” and the “expected value” for that element.
 
 ### Opening Code Viewer
 
@@ -117,11 +117,11 @@ You can adjust the predicate for a specific vulnerability while viewing that vul
 1. Navigate to the vulnerability that you would like to edit.
 2. To adjust the severity, click on the **Severity** field, and select from the dropdown list the severity that you would like to assign. Options are: Critical High, Medium, Low, Info.
 
-   ![](../../../assets/6429442145.png)
+   <figure><img src="../../../assets/6429442145.png" alt="" width="576"><figcaption></figcaption></figure>
 3. To adjust the state, click on the **State** field, and select from the dropdown list the state that you would like to assign. Options are: To Verify, Not Exploitable, Proposed Not Exploitable, Confirmed or Urgent.
 4. To add a note, click on the **Note** icon in the toolbar. In the **Notes** pane that opens, click **+ Add** and then enter the desired text and click the **Add** button at the bottom.
 
-   ![](../../../assets/6416564252.png)
+   <figure><img src="../../../assets/6416564252.png" alt="" width="288"><figcaption></figcaption></figure>
 
 ### Triaging Multiple Vulnerabilities (Bulk Action)
 
@@ -135,17 +135,17 @@ You can adjust the predicate for a specific vulnerability while viewing that vul
 
    A menu bar is shown at the top of the table.
 
-   ![](../../../assets/IaC_Triaging_Multiple_Vulnerabilities.png)
+   <figure><img src="../../../assets/IaC_Triaging_Multiple_Vulnerabilities.png" alt="" width="576"><figcaption></figcaption></figure>
 2. To adjust the severity, click on the **Change** **Severity** button, and select from the dropdown list the severity that you would like to assign.
 
    Options are: Critical High, Medium, Low, Info.
 
-   ![](../../../assets/IaC_Change_Severity.png)
+   <figure><img src="../../../assets/IaC_Change_Severity.png" alt="" width="324"><figcaption></figcaption></figure>
 3. To adjust the state, click on the **Change** **State** button, and select from the dropdown list the state that you would like to assign.
 
    Options are: To Verify, Not Exploitable, Proposed Not Exploitable, Confirmed or Urgent.
 
-   ![](../../../assets/IaC_Change_State.png)
+   <figure><img src="../../../assets/IaC_Change_State.png" alt="" width="324"><figcaption></figcaption></figure>
 4. To add a note, click on the **Add Note** button. In the **Notes** pane that opens, enter the desired text and click **Save**.
 
-   ![](../../../assets/IaC_Add_Note.png)
+   <figure><img src="../../../assets/IaC_Add_Note.png" alt="" width="324"><figcaption></figcaption></figure>

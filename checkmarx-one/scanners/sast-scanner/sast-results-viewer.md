@@ -6,7 +6,7 @@ The **SAST Result Viewer** helps identify and manage vulnerabilities in SAST-sca
 
 The **Vulnerabilities Table** is a great tool for understanding the vulnerabilities found during a project's SAST scan. It organizes the vulnerability details into columns. For more details on the vulnerability table columns, see [here](#vulnerability-table-columns). The table is customizable and can be filtered, sorted, and organized to best suit your needs. You may also add notes to specific vulnerabilities for yourself and for collaboration with colleagues. The table is searchable and can be exported as a .csv file for easy sharing or manipulation in an Excel worksheet.
 
-![](../../../assets/sastresults1.png)
+<figure><img src="../../../assets/sastresults1.png" alt="" width="432"><figcaption></figcaption></figure>
 
 <details>
 
@@ -16,7 +16,7 @@ The table below details the columns in the vulnerabilities table.
 
 | Parameter | Description |
 |---|---|
-| **Severity** | The severity of the vulnerability:<br>![](../../../assets/critical_icon.png)**Critical**<br>![](../../../assets/High_Severity.png)**High**<br>![](../../../assets/Medium_Severity.png)**Medium**<br>![](../../../assets/Low_Severity.png)**Low**<br>![](../../../assets/Info_Severity.png)**Info** |
+| **Severity** | The severity of the vulnerability:<br><img src="../../../assets/critical_icon.png" alt="" data-size="line">**Critical**<br><img src="../../../assets/High_Severity.png" alt="" data-size="line">**High**<br><img src="../../../assets/Medium_Severity.png" alt="" data-size="line">**Medium**<br><img src="../../../assets/Low_Severity.png" alt="" data-size="line">**Low**<br><img src="../../../assets/Info_Severity.png" alt="" data-size="line">**Info** |
 | **Status** | Status of the vulnerability:<br>**New**<br>**Recurrent** - The vulnerability has been detected at least once before. |
 | **Detection Date** | The **Detection Date** value varies between the UI and a CSV report. In the UI, it represents the initial vulnerability identification, whereas in the CSV report, it represents the most recent date the vulnerability was flagged. |
 | **State** | **To Verify** - Vulnerability requires verification, for example, by an authorized user. Default state of a new result.<br>**Not Exploitable** - Vulnerability has been confirmed as not exploitable (false positive).<br>**Proposed Not Exploitable** (PNE) - A vulnerability proposed as not exploitable, for example, as a potential false positive. These vulnerabilities are a potential threat until their state is changed to **Confirmed** or **Not Exploitable**.<br>**Confirmed** - Vulnerability has been confirmed as exploitable and requires handling.<br>**Urgent** - Vulnerability has been confirmed as exploitable and requires urgent handling. |
@@ -24,7 +24,7 @@ The table below details the columns in the vulnerabilities table.
 | **Source File** | The file in which the source node is located. |
 | **Sink Node** | The last node (output) of the vulnerable sequence.<br>{% hint style="info" %}<br>The sink node is identical to the source node for a single node's vulnerabilities.<br>{% endhint %} |
 | **Sink File** | The file in which the sink node is located. |
-| **Changes Made in** | If the **Source code**, **Query**, or **Scanner** changed between the previous and the current scan, this column shows where the change was made.<br>Hover over a result in this column and click on ![](../../../assets/Copy.png) to copy its vulnerability ID into the clipboard. You may send this ID to colleagues to collaborate on the vulnerability. |
+| **Changes Made in** | If the **Source code**, **Query**, or **Scanner** changed between the previous and the current scan, this column shows where the change was made.<br>Hover over a result in this column and click on <img src="../../../assets/Copy.png" alt="" data-size="line"> to copy its vulnerability ID into the clipboard. You may send this ID to colleagues to collaborate on the vulnerability. |
 
 </details>
 
@@ -40,19 +40,19 @@ In the **Groups & Filters** bar above the vulnerability table, use groups to org
 
 You can assign up to three group levels, which can be edited by clicking **Edit Groups**. As in the example image below, if a table has the default groups **Language**, **Severity**, and **Vulnerability**, it will first display the vulnerability's language (Java) as a dropdown, then the severity (High), and lastly, the vulnerability's category (Code Injection).
 
-![](../../../assets/groupingsrv.png)
+<figure><img src="../../../assets/groupingsrv.png" alt="" width="288"><figcaption></figcaption></figure>
 
 You can reorder groups by dragging their labels, which changes the order of the results on the table. To remove a group, click the **x** on its label or **Clear All** to remove all the groups.
 
 When a scan result is checked, the **Groups & Filters** bar shows the number of selected results and displays different options, such as changing a result's Severity level or State. You may also **Add Notes** or view the code in detail using the **View Code** option.
 
-![](../../../assets/resrib.png)
+<figure><img src="../../../assets/resrib.png" alt="" width="288"><figcaption></figcaption></figure>
 
-At the end of the **Groups & Filters** bar, you can search the table, toggle column filtering, export your table results view as a .csv file for sharing, or reorder/ hide/ pin your table columns by clicking the **Columns Management** dropdown, ![](../../../assets/Column_management_icon.png). (If you have columns that are hidden, it will look like this: ![](../../../assets/Column_management_icon.png)**Hidden**). If any changes are made to the organization of the table, the **Set as Default** and **Revert to Default** buttons will appear.
+At the end of the **Groups & Filters** bar, you can search the table, toggle column filtering, export your table results view as a .csv file for sharing, or reorder/ hide/ pin your table columns by clicking the **Columns Management** dropdown, <img src="../../../assets/Column_management_icon.png" alt="" data-size="line">. (If you have columns that are hidden, it will look like this: <img src="../../../assets/Column_management_icon.png" alt="" data-size="line">**Hidden**). If any changes are made to the organization of the table, the **Set as Default** and **Revert to Default** buttons will appear.
 
 #### Columns Management
 
-Use the Columns Management panel ![](../../../assets/Column_management_icon.png) to tailor your table view. You can show or hide columns, pin key ones to lock their place in the table, and drag others to reorder them for better visibility.
+Use the Columns Management panel <img src="../../../assets/Column_management_icon.png" alt="" data-size="line"> to tailor your table view. You can show or hide columns, pin key ones to lock their place in the table, and drag others to reorder them for better visibility.
 
 ![](../../../assets/columnsmanagement.png)
 
@@ -60,7 +60,7 @@ Use the Columns Management panel ![](../../../assets/Column_management_icon.png)
 
   - Hiding columns clears any filters applied to them.
   - If you hide a column that was part of a sorting rule, that sorting will be cleared, and the table will revert to its default sort order. This ensures the table view remains consistent, displaying only visible data.
-  - Hiding a column updates the counter (ex: ![](../../../assets/Column_management_icon.png)**4**)
+  - Hiding a column updates the counter (ex: <img src="../../../assets/Column_management_icon.png" alt="" data-size="line">**4**)
 - Pin Columns: Pin up to 3 columns to lock their position in the table. Pinned columns move to the top of the list, just below the default pinned columns.
 
   {% hint style="info" %}
@@ -76,9 +76,9 @@ To further tweak the table view, hover your mouse over the line between columns 
 
 Filter your table view further by focusing on a vulnerability detail category. Before filtering the columns, adjust the table **Rows** view to your liking. The vulnerability table's default setting displays 10 rows of results per page, as indicated in the **Rows** dropdown. Select the dropdown to toggle the view to 20 or 50 rows.
 
-Hover over a column header, click the filtering icon ![](../../../assets/filtering_icon.png), and select your filter(s) from the dropdown list or search. Applied filters are listed in the **Groups & Filters** bar.
+Hover over a column header, click the filtering icon <img src="../../../assets/filtering_icon.png" alt="" data-size="line">, and select your filter(s) from the dropdown list or search. Applied filters are listed in the **Groups & Filters** bar.
 
-Hover over a column header and click the sorting icon ![](../../../assets/sorting_icon.png) to toggle between sorting in ascending or descending order.
+Hover over a column header and click the sorting icon <img src="../../../assets/sorting_icon.png" alt="" data-size="line"> to toggle between sorting in ascending or descending order.
 
 ### Set Default Table Display
 

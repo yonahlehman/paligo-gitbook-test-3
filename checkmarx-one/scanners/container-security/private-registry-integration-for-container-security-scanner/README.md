@@ -3,7 +3,7 @@
 Set up integrations with your private repos to enable Checkmarx One Container Security Scanner to pull images from your registries for scanning.
 
 {% hint style="info" %}
-Some of these integrations may also be used by other Checkmarx One scanners and services, see Cloud Connection Integrations.
+Some of these integrations may also be used by other Checkmarx One scanners and services, see [Cloud Connection Integrations](../../../integrations/cloud-connection-integrations/README.md).
 {% endhint %}
 
 ## In this section

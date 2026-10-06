@@ -2,9 +2,9 @@
 
 The **SCA Results** page displays the SCA results for the most recent scan of your Project. This includes a list of all 3rd party packages identified in your Project, as well as the specific risks associated with those packages, such as vulnerabilities, legal risks, and outdated versions.
 
-![](../../../assets/Image_1456.png)
+<figure><img src="../../../assets/Image_1456.png" alt="" width="648"><figcaption></figcaption></figure>
 
-To access the SCA Results Viewer, navigate to the **Projects** page, hover over the ![](../../../assets/results.png) icon in the desired project's row, and click on SCA results in the window that appears.
+To access the SCA Results Viewer, navigate to the **Projects** page, hover over the <img src="../../../assets/results.png" alt="" data-size="line"> icon in the desired project's row, and click on SCA results in the window that appears.
 
 This screen includes a Header bar with general information about the Project and scan. It also shows detailed scan results, divided into the following tabs:
 
@@ -63,9 +63,9 @@ The following tables describe the information displayed in the Header bar and th
 | **Icon** | **Action** | **Description** | **Options** |
 |---|---|---|---|
 | ![](../../../assets/Image_618.png) | **Recalculate Scan** | Click to reevaluate the risks associated with the dependencies in your project. See [Recalculating SCA Scan Results](README.md#recalculating-sca-scan-results) | |
-| ![](../../../assets/Image_021.png) | **Scan Report** | Click on this button to download a file containing an overview of the security of your project as well as specific vulnerabilities, legal risks, and outdated versions identified by the scan. | **Report sections:**<br>• All data tables (Default)<br>• Packages<br>• Vulnerabilities<br>• Licenses<br>• Policy Violations<br>**File formats:**<br>• PDF (Default)<br>• XML<br>• JSON<br>• CSV |
-| ![](../../../assets/Image_021.png) | **Software Bill of Materials** | Click on this button to download a file containing detailed info about each of the open source packages used by your program, and the associated risks. You can specify how the SBOM will be formatted, [CycloneDX v1.7](https://cyclonedx.org/docs/1.7/#SchemaProperties) or [SPDX v2.3](https://spdx.github.io/spdx-spec/v2.3/). Learn more about Checkmarx's SBOMs here. | **File formats:**<br>• XML (for CycloneDx only)<br>• JSON |
-| ![](../../../assets/Image_021.png) | **Remediation Manifest** | Click on this button to start the process of remediating the Project’s manifest files. For more information see [Export Remediated Manifest File](https://docs.checkmarx.com/en/34965-322318-sca-scanner.html#UUID-2865b187-60e6-84f0-67c8-c5313ef205fc_section-idm33470162275302). | N/A |
+| <img src="../../../assets/Image_021.png" alt="" width="137"> | **Scan Report** | Click on this button to download a file containing an overview of the security of your project as well as specific vulnerabilities, legal risks, and outdated versions identified by the scan. | **Report sections:**<br>• All data tables (Default)<br>• Packages<br>• Vulnerabilities<br>• Licenses<br>• Policy Violations<br>**File formats:**<br>• PDF (Default)<br>• XML<br>• JSON<br>• CSV |
+| <img src="../../../assets/Image_021.png" alt="" width="137"> | **Software Bill of Materials** | Click on this button to download a file containing detailed info about each of the open source packages used by your program, and the associated risks. You can specify how the SBOM will be formatted, [CycloneDX v1.7](https://cyclonedx.org/docs/1.7/#SchemaProperties) or [SPDX v2.3](https://spdx.github.io/spdx-spec/v2.3/). Learn more about Checkmarx's SBOMs here. | **File formats:**<br>• XML (for CycloneDx only)<br>• JSON |
+| <img src="../../../assets/Image_021.png" alt="" width="137"> | **Remediation Manifest** | Click on this button to start the process of remediating the Project’s manifest files. For more information see [Export Remediated Manifest File](https://docs.checkmarx.com/en/34965-322318-sca-scanner.html#UUID-2865b187-60e6-84f0-67c8-c5313ef205fc_section-idm33470162275302). | N/A |
 | ![](../../../assets/More_Options.png) | **Resolving Info** | Display info about the package resolution process.<br>• Package Identified By - Shows the number of packages identified, broken down by how they were identified:<br>• Manifests -<br>Lists the manifest files in the Project. For each file, an icon indicates whether or not Checkmarx SCA was able to resolve the dependencies from the file.<br>There is a **Hide Successful** switch that enables you to hide the manifest files that were successfully resolved. Toggle this switch ON (to the right) in order to hide successfully resolved files. | |
 | ![](../../../assets/More_Options.png) | **Scan Details** | Display details of the scan process. For each step in the scan run, the start time and duration are shown. | |
 | ![](../../../assets/Image_022.png) | **Hide Dev Dependencies toggle** | Toggle this switch on in order to hide results for dev packages. For more information, see below. | |
@@ -112,13 +112,13 @@ Remediation is generally done by exporting the remediated file and manually repl
 **To remediate your project, do the following:**
 
 1. Go to the **SCA Scan Results Viewer** page for the scan of the Project that you would like to remediate.
-2. Hover over the **Export** ![](../../../assets/actions_generate_report.png) icon at the top right corner of the page and click on **Remediation Manifest**.
+2. Hover over the **Export** <img src="../../../assets/actions_generate_report.png" alt="" data-size="line"> icon at the top right corner of the page and click on **Remediation Manifest**.
 
-   ![](../../../assets/remediation.png)
+   <figure><img src="../../../assets/remediation.png" alt="" width="216"><figcaption></figcaption></figure>
 
    The **Remediate manifest** message appears, displaying a list of all the manifest files that can be remediated. A checkbox is displayed next to each file in the list.
 
-   ![](../../../assets/6426657022.png)
+   <figure><img src="../../../assets/6426657022.png" alt="" width="288"><figcaption></figcaption></figure>
 
    {% hint style="info" %}
    For a project in a private GitHub repository, an **Open Pull Request** button is displayed next to the download icon.
@@ -172,29 +172,29 @@ The following table describes the info shown for each package identified by this
 
 | **Item** | **Description** | **Possible Values** |
 |---|---|---|
-| **Package** | The name of the package.<br>This column also shows the ![](../../../assets/Image_023.png) icon for direct dependencies if a remediated package version exists.<br>Clicking on the icon takes you to that item in the [Remediation Tasks Tab](#remediation-tasks-tab). | e.g., dom4j:dom4j![](../../../assets/Image_023.png) |
-| **Version** | The version of the package that you are using.<br>This column also shows the ![](../../../assets/Image_025.png) icon for packages that are outdated (i.e., a newer version is available).<br>Hover over the icon to view addition info about the more recent versions. | e.g., 1.6.1![](../../../assets/Image_025.png) |
+| **Package** | The name of the package.<br>This column also shows the <img src="../../../assets/Image_023.png" alt="" data-size="line"> icon for direct dependencies if a remediated package version exists.<br>Clicking on the icon takes you to that item in the [Remediation Tasks Tab](#remediation-tasks-tab). | e.g., dom4j:dom4j<img src="../../../assets/Image_023.png" alt="" data-size="line"> |
+| **Version** | The version of the package that you are using.<br>This column also shows the <img src="../../../assets/Image_025.png" alt="" data-size="line"> icon for packages that are outdated (i.e., a newer version is available).<br>Hover over the icon to view addition info about the more recent versions. | e.g., 1.6.1<img src="../../../assets/Image_025.png" alt="" data-size="line"> |
 | **Effective License** | Shows the Licenses that are associated with the package. For multiple licenses, hover over the display to show all licenses and the associated legal risks. | e.g., GPL 2.0, Apache2.1 |
 | **CxScore** | A composite risk metric that combines vulnerability severity with real-world exploitability to prioritize remediation. For more information, see CxScore. | • Critical - 9.0-10.0<br>• High - 7.0 to 8.9<br>• Medium - 4.0 to 6.9<br>• Low - 0.1 - 3.9<br>• Info - 0.0 |
-| **Risks (Aggregated)** | A color coded bar graph indicating the number of vulnerabilities of each severity level. Hover over the bar to view a breakdown of the results by Vulnerability, Legal Risk and Suspected Malware.<br>For malicious packages the ![](../../../assets/Image_027.png) icon is shown.<br>{% hint style="success" %}<br>You can apply complex filters to show only packages that contain risks of a specific type and of a specific severity.<br><br>You can also apply filters to show only packages of a specific **state** (e.g. Monitored, Muted or Snoozed).<br>{% endhint %}<br>{% hint style="success" %}<br>The color coded bar graph is shown for **Monitored** packages only. If a Package is **muted** or **snoozed**, the respective icon will be placed instead of the bar.<br>{% endhint %} | e.g.,<br>![](../../../assets/6412697994.png) |
+| **Risks (Aggregated)** | A color coded bar graph indicating the number of vulnerabilities of each severity level. Hover over the bar to view a breakdown of the results by Vulnerability, Legal Risk and Suspected Malware.<br>For malicious packages the <img src="../../../assets/Image_027.png" alt="" data-size="line"> icon is shown.<br>{% hint style="success" %}<br>You can apply complex filters to show only packages that contain risks of a specific type and of a specific severity.<br><br>You can also apply filters to show only packages of a specific **state** (e.g. Monitored, Muted or Snoozed).<br>{% endhint %}<br>{% hint style="success" %}<br>The color coded bar graph is shown for **Monitored** packages only. If a Package is **muted** or **snoozed**, the respective icon will be placed instead of the bar.<br>{% endhint %} | e.g.,<br><img src="../../../assets/6412697994.png" alt="" width="102"> |
 | **Identified By** | Indicates how the package was identified. | • **Manifest** – identified by resolving the manifest file<br>• **Binary** – identified by analyzing hashes and fingerprints of files in the Project |
 | **References** | Shows the number of paths that reference this package.<br>{% hint style="success" %}<br>Packages that are referenced both directly and transitively, are included in the **Direct 3rd Party** section and the number of direct (D) and transitive (T) paths are given.<br>{% endhint %} | e.g., 1D, 12T |
 | **Usage**<br>(for Projects with Exploitable Path activated) | Indicates whether or not this package is used (called) by your project’s source code. | • **Used** – Package is directly used by the source code.<br>• **Potentially** – The package is a transitive dependency of a direct package that your source code uses.<br>• **Unused** – No usage was detected.<br>• **Package to be analysed soon** – The package is newly seen and has been added to the analysis queue. Usage information will be available in an upcoming scan.<br>• **Package source code not available** – Package source code was unavailable or could not be analyzed.<br>• **Failed to analyze source code** - An error occurred while analyzing the package or your source code.<br>• **Unsupported language** – Usage analysis is not supported for the package language.<br>{% hint style="info" %}<br>The **No SAST** and **Unknown** statuses are legacy statuses and may still be displayed for scans performed before the introduction of the native reachability engine.<br>{% endhint %} |
 | **Manager & Scope** | Shows labels that Checkmarx applied to the package. There is a label indicating the package manager used for package resolution. Additional labels are applied to special types of dependencies. | • **Package Manager** - shows the package manager that was used for resolution, e.g., Maven, Pip, Nuget, Npm etc.<br>• **Dev** - is applied to dev dependencies.<br>• **Test** - is applied to all packages that have the word "test" in their file path.<br>• **Verified by NPM** - is applied to packages for which the signatures were verified using `npm audit signatures`.<br>• **Private Package** - is applied to packages that are hosted on private repositories.<br>• **Framework** - is a package that is included in the Framework installation. These packages usually can't be remediated without updating the version of the overall framework.<br>{% hint style="success" %}<br>Currently supported only for .NET projects.<br>{% endhint %} |
 | **Suggested Fix** | Provides an at-a-glance indication of upgrade opportunities for each dependency. The column indicates whether a safer package version is available and whether the suggested upgrade fully or partially remediates the associated vulnerabilities.<br>Hover over the Suggested Fix indicator for additional remediation details. For more information, see [Suggested Fix Tooltip](#suggested-fix-tooltip).<br>Click See details to open the remediation side panel. For more information, see Package Details Side Panel. | • **None** – No vulnerabilities exist, or no better version is available.<br>• **Next** – A safer version is available.<br>• **Latest** – Only the most recent version resolves the issue.<br>The indicators are color-coded to reflect the effectiveness of the suggested upgrade:<br>• **Green** – The suggested version fully resolves all vulnerabilities.<br>• **Purple** – The suggested version improves security but does not fully remediate all vulnerabilities. |
-| **AppSec Knowledge Center** | Link to the AppSec Knowledge Center page for each package. | ![](../../../assets/Image_028.png) |
+| **AppSec Knowledge Center** | Link to the AppSec Knowledge Center page for each package. | <img src="../../../assets/Image_028.png" alt="" data-size="line"> |
 
 #### Suggested Fix Tooltip
 
 Hovering over the indicator provides additional context, including the recommended version number and a breakdown of how many vulnerabilities are reduced compared to the current version, segmented by severity level. This allows for quick impact assessment without leaving the view.
 
-![](../../../assets/suggestedfixtooltip.png)
+<figure><img src="../../../assets/suggestedfixtooltip.png" alt="" width="216"><figcaption></figcaption></figure>
 
 #### Package Details Side Panel
 
 Clicking **See details** opens a side panel with deeper remediation insights. This includes the recommended most secure versions, showing both the next version that resolves the issue and the latest available version. A **Version Timeline** toggle provides visibility into intermediate versions between the current, next, and latest releases. You can also navigate directly to the **AppSec Knowledge Center** to explore the full package history and all associated vulnerabilities.
 
-![](../../../assets/Image_1213.png)
+<figure><img src="../../../assets/Image_1213.png" alt="" width="288"><figcaption></figcaption></figure>
 
 Hovering over a recommended version in the side panel reveals a **Copy Version** option, allowing you to quickly copy the version number and paste it directly into your project configuration for faster remediation.
 
@@ -211,7 +211,7 @@ The **Package Details** sub-tab shows detailed info about a specific package. Th
 | **Item** | **Description** |
 |---|---|
 | **Package** | The name and version of the package. |
-| **Remediation Task**<br>![](../../../assets/Image_023.png) | A link to the recommended remediation task in the **Remediation Tasks** tab.<br>(Only shown when available) |
+| **Remediation Task**<br><img src="../../../assets/Image_023.png" alt="" width="63"> | A link to the recommended remediation task in the **Remediation Tasks** tab.<br>(Only shown when available) |
 | **Dependency Type** | The type of package manager used for this package. |
 | **License(s)** | Shows all licenses that you have that are associated with this package. |
 | **Published** | The date that this version of the package was published. |
@@ -219,7 +219,7 @@ The **Package Details** sub-tab shows detailed info about a specific package. Th
 
 #### Package Details Sections
 
-![](../../../assets/SCA_Results_Package_Details.png)
+<figure><img src="../../../assets/SCA_Results_Package_Details.png" alt="" width="576"><figcaption></figcaption></figure>
 
 | **Item** | **Description** |
 |---|---|
@@ -242,7 +242,7 @@ The **Package Details** sub-tab shows detailed info about a specific package. Th
 
 The **Risks** tab shows info about all of the Risks that are associated with the open source packages used by your project. This includes vulnerabilities (e.g., CVEs), as well as suspected malware (e.g., malicious packages), legal risks and outdated packages.
 
-![](../../../assets/SCA_Results_Risks_Tab.png)
+<figure><img src="../../../assets/SCA_Results_Risks_Tab.png" alt="" width="576"><figcaption></figcaption></figure>
 
 The **Risks** tab contains sub-tabs that show two types of pages:
 
@@ -278,7 +278,7 @@ The License Score represents the level of risk associated with using a package u
 
 In addition, Checkmarx identifies actual risks to your project based on legal issues related to improper usage of open source packages. These risks are shown in the **Scan Results** > **Risks** tab in the **Legal Risk** section.
 
-![](../../../assets/SCA_Results_Legal_Risks.png)
+<figure><img src="../../../assets/SCA_Results_Legal_Risks.png" alt="" width="576"><figcaption></figcaption></figure>
 
 ##### Marking Licenses as Effective or Not Effective
 
@@ -304,7 +304,7 @@ The following E2E workflow explains how you can leverage the legal risk function
 2. Go to the **Risks** tab > **Legal Risks** and check for packages with no license associated.
 3. If you aware of the relevant licenses for these packages, add them via API, using POST /management-of-risk/package-licenses.
 4. Go to the **Scan Results** > **Licenses** tab. Review each license and mark whether or not it is the **Effective** license for the specified package (via the web application).
-5. On the **Scan Results** page, click on ![](../../../assets/Scan_Management.png)> **Recalculate Last Scan**.
+5. On the **Scan Results** page, click on <img src="../../../assets/Scan_Management.png" alt="" data-size="line">> **Recalculate Last Scan**.
 6. After the recalculation is complete, go to the **Risks** tab > **Legal Risks** and check what **Legal Risks** were identified in your project.
 7. Take the required steps to remediate these risks.
 
@@ -318,7 +318,7 @@ If a risk affects several packages in your Project, a separate record is listed 
 
 You can also sort by column headers and set filters for each column.
 
-![](../../../assets/SCA_Results_All_Risks.png)
+<figure><img src="../../../assets/SCA_Results_All_Risks.png" alt="" width="576"><figcaption></figcaption></figure>
 
 Clicking on the arrow on the left of the tab expands a list showing all of the risks of that type.
 
@@ -341,19 +341,19 @@ The following table describes the info shown for each vulnerability identified b
 | **Identified in Package** | The name and version of the package in which the vulnerability was identified.<br>In addition, an indication is shown for the type of dependency:<br>• D - Direct dependency<br>• T - Transitive dependency<br>• M - Mixed dependency (i.e., the package is used in the project both directly and also transitively)<br>Results can be filtered by dependency type. | e.g., loadash @ 4.13.1 <sup>(T) </sup> |
 | **Detection / Publication** | Shows the date that this vulnerability was first officially published on a supported public Security Advisory. | e.g., Nov 16, 2020 |
 | **Risk Resolution** | Provides an at-a-glance indication of remediation opportunities for a specific vulnerability. The column indicates whether a package version is available that fully or partially remediates the vulnerability.<br>{% hint style="success" %}<br>In the context of the Risks tab, remediation recommendations are vulnerability-specific. Different vulnerabilities within the same package may suggest different upgrade versions.<br>{% endhint %}<br>Hover over the Risk Resolution indicator for additional remediation details. For more information, see [Risk Resolution Tooltip](#risk-resolution-tooltip).<br>Click See details to open the remediation side panel. For more information, see Package Details Side Panel. | • **None** – No remediation version is available.<br>• **Next** – the earliest version of the package that solves the risk.<br>• **Latest** – Only the latest version remediates the vulnerability.<br>The indicators are color-coded to reflect the effectiveness of the suggested upgrade:<br>• **Green** – The suggested version fully resolves the vulnerability.<br>• **Purple** –The suggested version reduces the risk but does not fully remediate it. |
-| **Explore in AppSec Knowledge Center** | Click on the ![](../../../assets/Image_028.png)icon to learn more about this vulnearbility in our AppSec Knowledge Center. | ![](../../../assets/Image_028.png) |
+| **Explore in AppSec Knowledge Center** | Click on the <img src="../../../assets/Image_028.png" alt="" data-size="line">icon to learn more about this vulnearbility in our AppSec Knowledge Center. | ![](../../../assets/Image_028.png) |
 
 #### Risk Resolution Tooltip
 
 Hovering over the indicator provides additional context, including the recommended version number and remediation guidance for the suggested upgrade.
 
-![](../../../assets/Image_1229.png)
+<figure><img src="../../../assets/Image_1229.png" alt="" width="216"><figcaption></figcaption></figure>
 
 #### Package Details Side Panel
 
 Clicking **See details** opens a side panel with deeper remediation insights. This includes the recommended secure versions, showing both the next version that remediates the vulnerability and the latest available version.A **Version Timeline** toggle provides visibility into intermediate versions between the current, next, and latest releases. You can also navigate directly to the **AppSec Knowledge Center** to explore the full package history and all associated vulnerabilities.
 
-![](../../../assets/Image_1230.png)
+<figure><img src="../../../assets/Image_1230.png" alt="" width="288"><figcaption></figcaption></figure>
 
 Hovering over a recommended version reveals a **Copy Version** option, allowing you to quickly copy the version number and paste it directly into your project configuration for faster remediation.
 
@@ -378,7 +378,7 @@ Vulnerabilities are risks that can be exploited by an attacker. This includes vu
 
 ##### Info Pane
 
-![](../../../assets/SCA_INFO_PANE.png)
+<figure><img src="../../../assets/SCA_INFO_PANE.png" alt="" width="576"><figcaption></figcaption></figure>
 
 | **Item** | **Description** | **Possible Values** |
 |---|---|---|
@@ -393,7 +393,7 @@ Vulnerabilities are risks that can be exploited by an attacker. This includes vu
 
 ##### Vulnerability Details Sections
 
-![](../../../assets/SCA_VULNERABILITIES_DETAILS.png)
+<figure><img src="../../../assets/SCA_VULNERABILITIES_DETAILS.png" alt="" width="576"><figcaption></figcaption></figure>
 
 | **Item** | **Description** |
 |---|---|
@@ -542,19 +542,19 @@ The following table shows some examples of suspected malware risks of each type 
 
 ##### Info Pane
 
-![](../../../assets/6499860592.png)
+<figure><img src="../../../assets/6499860592.png" alt="" width="648"><figcaption></figcaption></figure>
 
 | **Item** | **Description** | **Possible Values** |
 |---|---|---|
 | **ID** | An internal ID starting with the “Cx” prefix that was assigned to this risk by the Checkmarx Vulnerability Research Team. | e.g., Cx27b685d0-978d |
 | **Package** | The name of the package in which the vulnerability was identified. | e.g., com.fasterxml.jackson.core:jackson-databind 2.9.8 |
 | **Version** | The version of the package where the vulnerability was identified. | e.g., 5.1.26 |
-| **Risk Level** | The severity level of the vulnerability, based on its CVSS score in the CVE database. Malicious (suspected malware) packages are labeled Malicious and the ![](../../../assets/Image_027.png)icon is shown. | • ![](../../../assets/Image_027.png)- Malicious<br>• **HIGH**<br>• **MEDIUM**<br>• **LOW**<br>For more info see Severity Levels. |
+| **Risk Level** | The severity level of the vulnerability, based on its CVSS score in the CVE database. Malicious (suspected malware) packages are labeled Malicious and the <img src="../../../assets/Image_027.png" alt="" data-size="line">icon is shown. | • <img src="../../../assets/Image_027.png" alt="" data-size="line">- Malicious<br>• **HIGH**<br>• **MEDIUM**<br>• **LOW**<br>For more info see Severity Levels. |
 | **Risk State** | This indicates the current state of the suspected malware Risk as determined by your AppSec team. All new risks are initially marked as **To Verify**. A user with `manage-risk` role (e.g., Admin, SCA Manager) can change the Risk state for this Project by clicking on the **Risk State** field and selecting the radio button for the desired state. See Risk Management | • To Verify<br>• Not Exploitable<br>• Proposed Not Exploitable<br>• Confirmed<br>• Urgent<br>{% hint style="success" %}<br>When the state is set as Not exploitable, the page is grayed out and the risk is marked with a strikethrough line on the **All Risks** tab.<br>{% endhint %} |
 
 ##### Suspected Malware Details Sections
 
-![](../../../assets/6499795010.png)
+<figure><img src="../../../assets/6499795010.png" alt="" width="648"><figcaption></figcaption></figure>
 
 | **Item** | **Description** |
 |---|---|
@@ -573,7 +573,7 @@ This tab shows detailed information about a specific license, including the Lega
 
 ##### Info Pane
 
-![](../../../assets/Image_829.png)
+<figure><img src="../../../assets/Image_829.png" alt="" width="648"><figcaption></figcaption></figure>
 
 | **Item** | **Description** | **Possible Values** |
 |---|---|---|
@@ -641,7 +641,7 @@ The following table describes the info shown for each package identified in the 
 | **Version** | The version of the package. | e.g., 1.2.2-r1 |
 | **Image** | The name of the image that was scanned. | e.g., python |
 | **Image Tag** | The version of the image. | e.g., rc-alpine3.13 |
-| **Vulnerabilities** | A color coded bar graph indicating the number of vulnerabilities of each severity level. | e.g.,<br>![](../../../assets/6412730959.png) |
+| **Vulnerabilities** | A color coded bar graph indicating the number of vulnerabilities of each severity level. | e.g.,<br><img src="../../../assets/6412730959.png" alt="" width="170"> |
 | **Identified By** | The path to the Docker file in which the specific image is found. (Hover to view the entire path.) | e.g., Joao4/JavaVulnerableLab-dockerfile/JavaVulnerableLab-master/dockerfile1/Dockerfile |
 | **Dep. Type** | The repository in which the image is located. | e.g., Docker Hub |
 
@@ -716,11 +716,11 @@ The following table describes the info shown for each license identified by this
 
 The tab shows detailed information about a specific license, including the Legal Risks relating to the license.
 
-![](../../../assets/Image_830.png)
+<figure><img src="../../../assets/Image_830.png" alt="" width="648"><figcaption></figcaption></figure>
 
 #### Info Pane
 
-![](../../../assets/Image_829.png)
+<figure><img src="../../../assets/Image_829.png" alt="" width="648"><figcaption></figcaption></figure>
 
 | **Item** | **Description** | **Possible Values** |
 |---|---|---|
@@ -759,7 +759,7 @@ The License Score represents the level of risk associated with using a package u
 
 The **Remediation Tasks** tab shows detailed information about specific remediation tasks that Checkmarx recommends implementing for your Project. These tasks involve replacing vulnerable packages in your project with non-vulnerable versions of those packages.
 
-![](../../../assets/Image_1405.png)
+<figure><img src="../../../assets/Image_1405.png" alt="" width="648"><figcaption></figcaption></figure>
 
 The **Remediation Tasks** tab contains sub-tabs that show two types of pages:
 
@@ -792,7 +792,7 @@ Each task relates to a specific direct package in your project.
 
 The data shown for each task relates to the vulnerabilities identified in the direct package as well as in the transitive dependencies associated with it. You can click on the “+” button for a task to expand the view of that task to show the transitive dependencies called by the package. The number of vulnerabilities of each severity level is shown for each transitive package.
 
-![](../../../assets/Image_1406.png)
+<figure><img src="../../../assets/Image_1406.png" alt="" width="648"><figcaption></figcaption></figure>
 
 The following table describes the info shown for each task:
 
@@ -824,25 +824,25 @@ The info on this screen is shown in the following panes.
 
 #### Overview
 
-![](../../../assets/Image_1407.png)
+<figure><img src="../../../assets/Image_1407.png" alt="" width="432"><figcaption></figcaption></figure>
 
 This pane shows gauge widgets indicating the overall risk level for the specified package, the effort required to implement the suggested remediation procedure and the impact of remediation.
 
 #### Summary
 
-![](../../../assets/Image_1409.png)
+<figure><img src="../../../assets/Image_1409.png" alt="" width="432"><figcaption></figcaption></figure>
 
 This pane shows a summary of the remediation task, including the package name, number of vulnerabilities and total number of remediation steps.
 
 #### Remediation Impact
 
-![](../../../assets/Image_1411.png)
+<figure><img src="../../../assets/Image_1411.png" alt="" width="648"><figcaption></figcaption></figure>
 
 This pane shows a side-by-side comparison between the vulnerabilities currently in the direct and transitive dependencies and the vulnerabilities that will remain after remediation.
 
 #### Developer Walkthrough
 
-![](../../../assets/Image_1412.png)
+<figure><img src="../../../assets/Image_1412.png" alt="" width="648"><figcaption></figcaption></figure>
 
 This section breaks down the task into specific steps that need to be taken. Each step indicates the element that needs remediation and gives details about how it should be fixed. There are three types of steps:
 

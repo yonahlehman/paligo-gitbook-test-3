@@ -4,7 +4,7 @@ The **Container** scan results page shows info about the images identified in yo
 
 The main screen shows a list of images grouped by the Dockerfile in which they were identified. For each image, info is shown about the related packages and vulnerabilities. There are also dashboard widgets showing key metrics for the selected Dockerfile.
 
-![](../../../assets/ContainerResults.png)
+<figure><img src="../../../assets/ContainerResults.png" alt="" width="648"><figcaption></figcaption></figure>
 
 Click on an image to drill down to see detailed info about the packages and risks associated with that image.
 
@@ -15,7 +15,7 @@ The following table describes the information for each Image.
 | **Image Name** | The name of the image that was scanned. | e.g., python |
 | **Base Image** | The name of the base image. | e.g., 1.2.2-r1 |
 | **Status** | The status of the image. | Monitored, Muted, Snoozed, Unresolved<br>{% hint style="success" %}<br>For Unresolved images, hover over the status column to show a tooltip with info about why Checkmarx was unable to resolve the image.<br>{% endhint %} |
-| **Vulnerabilities** | A color coded bar graph indicating the number of vulnerabilities of each severity level. | e.g.,<br>![](../../../assets/Vulnerabilities_Bar.png) |
+| **Vulnerabilities** | A color coded bar graph indicating the number of vulnerabilities of each severity level. | e.g.,<br><img src="../../../assets/Vulnerabilities_Bar.png" alt="" width="133"> |
 | **Pkg Count** | The number of packages used in the image. | e.g.,<br>![](../../../assets/Pkg_Count.png) |
 | **Size** | The memory size of the image. | e.g., 139.0 MB |
 | **Remediation** | Indicates if a remediated version of the image is available for upgrade. | Available, Unknown |
@@ -30,7 +30,7 @@ This pane shows a separate section for each build stage showing all layers withi
 
 This section serves as a navigation pane for the details tabs. When **ALL** is selected, all results are shown in the **Vulnerabilities** and **Packages** tabs. When a specific layer is selected, the **Vulnerabilities** and **Packages** tabs are filtered to show only results for that layer. The **Remediation** tab always shows recommendations for remediating the entire image.
 
-![](../../../assets/Container_-_Layers.png)
+<figure><img src="../../../assets/Container_-_Layers.png" alt="" width="576"><figcaption></figcaption></figure>
 
 #### Malicious Packages
 
@@ -40,11 +40,11 @@ When a malicious package is identified, that package is marked with a "malicious
 
 This icon is shown in the main table next to both the malicious file and image. You can hover over the malicious icon next to the image to get more info about the risk.
 
-![](../../../assets/Image_1943.png)
+<figure><img src="../../../assets/Image_1943.png" alt="" width="576"><figcaption></figcaption></figure>
 
 You can drill down to see more details about the malicious image.
 
-![](../../../assets/Image_1944.png)
+<figure><img src="../../../assets/Image_1944.png" alt="" width="432"><figcaption></figcaption></figure>
 
 You can also set the filter to show only malicious packages.
 
@@ -76,7 +76,7 @@ If a binary package shares the same CVEs as its source package, then they are sh
 Use the search field at the top right to search by CVE or package name. Results are filtered as you type. You can also apply filters for **State**, **Vulnerability Level**, **Malicious**, **Risk Score** or **Runtime Usage**.
 {% endhint %}
 
-![](../../../assets/vulntab.png)
+<figure><img src="../../../assets/vulntab.png" alt="" width="648"><figcaption></figcaption></figure>
 
 #### Packages Tab
 
@@ -92,4 +92,4 @@ Use the search field at the top right to search by package name. Results are fil
 
 This tab shows info about recommended remediation actions. When you click on a base image in the navigation pane, a list of remediated versions of that image is displayed. The remediated versions are grouped by the type of version update (Next Remediated Versions, Remediated Major Versions, Remediated Minor Versions, Latest Remediated Versions, or Alternative Images). For each suggested version, the number of resolved vulnerabilities of each severity level is displayed. This enables users to choose the version that will most effectively remediate the vulnerabilities without requiring unnecessary code refactoring.
 
-![](../../../assets/Container_-_Remediation.png)
+<figure><img src="../../../assets/Container_-_Remediation.png" alt="" width="432"><figcaption></figcaption></figure>

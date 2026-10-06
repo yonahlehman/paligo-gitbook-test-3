@@ -8,7 +8,7 @@ To use AI Supply Chain Security, ensure that your organization has the AI Supply
 
 ## AI Supply Chain Global Inventory
 
-Access the AI Supply Chain Global Inventory page from the side panel: ![](../../../assets/Resources.png) **Resources** > **AI Supply Chain Global Inventory**.
+Access the AI Supply Chain Global Inventory page from the side panel: <img src="../../../assets/Resources.png" alt="" data-size="line"> **Resources** > **AI Supply Chain Global Inventory**.
 
 {% hint style="info" %}
 The AI Supply Chain Global Inventory table displays results from the Main or Master branches only, across all projects.

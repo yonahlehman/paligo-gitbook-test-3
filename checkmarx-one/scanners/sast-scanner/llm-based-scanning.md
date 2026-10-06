@@ -21,15 +21,15 @@ Use the following table to help determine where best to enable LLM-based scannin
 LLM-based scanning is configured at the tenant, project, and scan levels.
 
 {% hint style="warning" %}
-Ensure that the AI toggle is enabled: Select ![](../../../assets/Homepage_settings_cog-account_settings_.png) > **Global Settings** > **AI**, and then under **AI Capabilities** , ensure **Allow AI Usage** is toggled on.
+Ensure that the AI toggle is enabled: Select <img src="../../../assets/Homepage_settings_cog-account_settings_.png" alt="" data-size="line"> > **Global Settings** > **AI**, and then under **AI Capabilities** , ensure **Allow AI Usage** is toggled on.
 
 If **Allow AI Usage** is OFF, LLM-based scanning will not run even if enabled at project or scan level!
 {% endhint %}
 
-- To enable LLM-based scanning at the tenant-level: Go to ![](../../../assets/Homepage_settings_cog-account_settings_.png) > **Global Settings** > **SAST** >, and set **LLM-based Settings** to **true**.
+- To enable LLM-based scanning at the tenant-level: Go to <img src="../../../assets/Homepage_settings_cog-account_settings_.png" alt="" data-size="line"> > **Global Settings** > **SAST** >, and set **LLM-based Settings** to **true**.
 
   ![](../../../assets/sastfa1.png)
-- To enable LLM-based scanning at the project level: Go to **Projects** > at the end of the project's row select ![](../../../assets/Vertical_Ellipsis.png) > **Project Settings** > **Rules**, and then set **LLM-based scanning** to true.
+- To enable LLM-based scanning at the project level: Go to **Projects** > at the end of the project's row select <img src="../../../assets/Vertical_Ellipsis.png" alt="" data-size="line"> > **Project Settings** > **Rules**, and then set **LLM-based scanning** to true.
 - To enable LLM based scanning on the scan leveI: add the parameter: `extendedAnalysis: 'true'` under the sast section in your configuration file (config.yml). See Configuring Projects Using Config as Code Files and, specifically, the **LLM-based scanning** SAST parameter for more information.
 
   ![](../../../assets/LAST_Scanlvl.png)

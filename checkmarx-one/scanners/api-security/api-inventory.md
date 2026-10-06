@@ -1,6 +1,6 @@
 # API Inventory
 
-To access the API Inventory from the main menu, select **Resources ![](../../../assets/Resources.png)> API Inventory**.
+To access the API Inventory from the main menu, select **Resources <img src="../../../assets/Resources.png" alt="" data-size="line">> API Inventory**.
 
 The **Global API Inventory** is divided into two tabs: **Inventory**, which lists all APIs detected across all projects on the platform, and **Risks**, which lists all API risks detected across all projects on the platform. In both tabs, you can filter the table by column and export the displayed results as a CSV file.
 
@@ -34,14 +34,14 @@ The following table describes the information displayed for each API:
 
 Selecting an API in the **All APIs** subtab opens a new subtab displaying details for the selected API.
 
-![](../../../assets/APISec_doc_10.png)
+<figure><img src="../../../assets/APISec_doc_10.png" alt="" width="576"><figcaption></figcaption></figure>
 
 The API detail subtab contains the following widgets:
 
 | Widget | Description |
 |---|---|
-| **Risk** | Displays the number and severity of risks detected in the selected API.<br>This pane may include any or all of the following sections:<br>• **Total**: The total number of risks found for the current endpoint by the API Security scanner (on the left) and by the SAST scanner (on the right).<br>• **Source Code**: The number of source code risks found by the API Security scanner (on the left) and the SAST scanner (on the right).<br>• **API Documentation**: The number of API documentation risks found by the API Security scanner (on the left) and by the SAST scanner (on the right).<br>If the scan did not include SAST queries, this section will show only the number of API documentation risks.<br>Select a severity bar to open the **Risks** tab. The **All Risks** subtab is automatically filtered to display the risks for the selected API.<br>![](../../../assets/RisksTable_for_API.png) |
-| **Parameters** | Shows the number of occurrences of sensitive data in the code and documentation. To see a list of the sensitive data in the code, click inside the widget.<br>Sensitive data is a set of data that Checkmarx defines as sensitive. It is not related to the detected vulnerabilities. It simply provides you with an overview of what is potentially vulnerable to threats.<br>Sensitive parameters are divided into five categories like **Name**, **Personal Data**, etc. Each category has a set of parameters defined.<br>• **Name**: firstname, surname, familyname, fullname, name<br>• **Personal Data**: birthday, dob, dateofbirth, phone, mobile, email, socialsecurity, ssn, driverslicense<br>• **Address**: address, zipcode<br>• **Bank**: credit, cardnumber, account<br>• **Secrets**: dcredentials, secret, auth, apikey, pass, pwd, password<br>If the API was detected both in the API source code and the API documentation, this widget shows which warnings appear only in the code, only in the documentation, or in both. Code data origin is indicated by the ![](../../../assets/CodeIconParameter.png) icon, and documentation data origin is indicated by the ![](../../../assets/DocIconParameter.png) icon.<br>![](../../../assets/ParametersWidget.png) |
+| **Risk** | Displays the number and severity of risks detected in the selected API.<br>This pane may include any or all of the following sections:<br>• **Total**: The total number of risks found for the current endpoint by the API Security scanner (on the left) and by the SAST scanner (on the right).<br>• **Source Code**: The number of source code risks found by the API Security scanner (on the left) and the SAST scanner (on the right).<br>• **API Documentation**: The number of API documentation risks found by the API Security scanner (on the left) and by the SAST scanner (on the right).<br>If the scan did not include SAST queries, this section will show only the number of API documentation risks.<br>Select a severity bar to open the **Risks** tab. The **All Risks** subtab is automatically filtered to display the risks for the selected API.<br><img src="../../../assets/RisksTable_for_API.png" alt="" width="576"> |
+| **Parameters** | Shows the number of occurrences of sensitive data in the code and documentation. To see a list of the sensitive data in the code, click inside the widget.<br>Sensitive data is a set of data that Checkmarx defines as sensitive. It is not related to the detected vulnerabilities. It simply provides you with an overview of what is potentially vulnerable to threats.<br>Sensitive parameters are divided into five categories like **Name**, **Personal Data**, etc. Each category has a set of parameters defined.<br>• **Name**: firstname, surname, familyname, fullname, name<br>• **Personal Data**: birthday, dob, dateofbirth, phone, mobile, email, socialsecurity, ssn, driverslicense<br>• **Address**: address, zipcode<br>• **Bank**: credit, cardnumber, account<br>• **Secrets**: dcredentials, secret, auth, apikey, pass, pwd, password<br>If the API was detected both in the API source code and the API documentation, this widget shows which warnings appear only in the code, only in the documentation, or in both. Code data origin is indicated by the <img src="../../../assets/CodeIconParameter.png" alt="" data-size="line"> icon, and documentation data origin is indicated by the <img src="../../../assets/DocIconParameter.png" alt="" data-size="line"> icon.<br><img src="../../../assets/ParametersWidget.png" alt="" width="468"> |
 | **Data Origins** | Displays the details of the API data origins. It can be either the API source code, the Swagger file (documentation), both, or DAST tests. |
 | **Latest Changes** | Lists the changes on this API since it was discovered. It can be one or several of the following:<br>**Structure**: Added or removed Response and Request parameters, for example:<br>• **Structure \| {Parameter} was removed**<br>• **Structure \| {Parameter} was added**<br>**Risk**: Detected one or more new risks. Risks are characterized by their risk level ( Critical, High, Medium, or Low) and grouped in categories, for example:<br>• **Risk \| {Number} new {Level} found**<br>**Sensitive Data**: Flagged parameters as sensitive, for example:<br>• **Sensitive Data \| {Parameter} was found in {Request or Response}**<br>If the API has not changed since its discovery, the corresponding message will appear. |
 
@@ -49,17 +49,17 @@ The API detail subtab contains the following widgets:
 
 The **Risks** tab displays the **Global Risks Table**. By default, the **All Risks** subtab displays all API risks detected across all projects on the platform. Selecting a risk opens its details in a new subtab next to All Risks. Multiple risk detail subtabs can remain open simultaneously, allowing you to switch between the risks table and previously opened risks.
 
-![](../../../assets/APISec_doc_08.png)
+<figure><img src="../../../assets/APISec_doc_08.png" alt="" width="576"><figcaption></figcaption></figure>
 
 The following table describes the information displayed for each risk:
 
 | Parameter | Description |
 |---|---|
-| **Severity**![](../../../assets/Severity.png) | Indicates the risk severity. Possible severity levels are:Critical, High, Medium, or Low. |
+| **Severity**<img src="../../../assets/Severity.png" alt="" data-size="line"> | Indicates the risk severity. Possible severity levels are:Critical, High, Medium, or Low. |
 | **Applications** | The application to which this project belongs. If the project does not belong to any application, this field is marked **----**. |
 | **Project** | The project for which the risk was detected. |
 | **Risk Name** | The name of the risk. |
-| **Status** | Indicates the status of the risk as follows:<br>![](../../../assets/New.png)- A newly detected vulnerability.<br>![](../../../assets/Recurrent_List.png)- The vulnerability has been detected at least once before. |
+| **Status** | Indicates the status of the risk as follows:<br><img src="../../../assets/New.png" alt="" data-size="line">- A newly detected vulnerability.<br><img src="../../../assets/Recurrent_List.png" alt="" data-size="line">- The vulnerability has been detected at least once before. |
 | **Endpoint Path** | The end path of the resource URL. |
 | **Method** | The operation that the endpoint performs on resources. |
 | **Risk Origin** | Indicates where the risk was detected. Currently, three risk origins are available: **Code**, **Documentation**, and **Testing**. To filter the risks by their origin, click on the column header to display a drop-down list, check the required option, and click OK: |
@@ -71,11 +71,11 @@ The following table describes the information displayed for each risk:
 
 Select a risk in the **All Risks** subtab to open its details in a new subtab.
 
-![](../../../assets/Risk_for_API_Detailed.png)
+<figure><img src="../../../assets/Risk_for_API_Detailed.png" alt="" width="576"><figcaption></figcaption></figure>
 
 In the subtab, two widgets are displayed: **Details** and **Parameters**. Click on a widget to show more information.
 
-![](../../../assets/Risk_for_API_detailed_in_detail.png)
+<figure><img src="../../../assets/Risk_for_API_detailed_in_detail.png" alt="" width="576"><figcaption></figcaption></figure>
 
 #### Details Widget
 
@@ -88,9 +88,9 @@ The **Details** widget shows the following information:
 | **Status** | The status of the vulnerability | **New**<br>**Recurrent**. The vulnerability has been detected at least once before |
 | **Source Node** | The beginning of the attack vector | The first node (input) of the vulnerable sequence. |
 
-In addition, the **Details** widget provides a link ![](../../../assets/View_SAST_Results.png) to view the highlighted vulnerability in the **SAST Results Viewer**. Clicking on a specific instance of the vulnerability opens a subtab with the vulnerability details
+In addition, the **Details** widget provides a link <img src="../../../assets/View_SAST_Results.png" alt="" data-size="line"> to view the highlighted vulnerability in the **SAST Results Viewer**. Clicking on a specific instance of the vulnerability opens a subtab with the vulnerability details
 
-![](../../../assets/SAST_Vulnerabilities_1234_Java_Stored_XSS_1st_instance.png)
+<figure><img src="../../../assets/SAST_Vulnerabilities_1234_Java_Stored_XSS_1st_instance.png" alt="" width="576"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For a detailed explanation of the **SAST Results Viewer**, see [SAST Results Viewer](../sast-scanner/sast-results-viewer.md).
@@ -102,15 +102,15 @@ For a detailed explanation of triaging SAST results, see [Triaging SAST Results]
 
 #### Parameters Widget
 
-In the **Parameters**, clicking on ![](../../../assets/View_All_Parameters.png) opens a side-panel that displays all sensitive data parameters in the code.
+In the **Parameters**, clicking on <img src="../../../assets/View_All_Parameters.png" alt="" data-size="line"> opens a side-panel that displays all sensitive data parameters in the code.
 
 The following table describes the available information:
 
 | Interface | Description |
 |---|---|
 | ![](../../../assets/Global_Warnings.png) | List of all sensitive parameters in the API with warnings. This section is identical to the list of sensitive data parameters. |
-| ![](../../../assets/Global_Requests.png) | List of all parameters in the request to the API. The sensitive parameters are labeled ![](../../../assets/Sensitive.png). |
-| ![](../../../assets/Global_Responnse.png) | List of all parameters in the response by the API. The sensitive parameters are labeled ![](../../../assets/Sensitive.png). |
+| ![](../../../assets/Global_Requests.png) | List of all parameters in the request to the API. The sensitive parameters are labeled <img src="../../../assets/Sensitive.png" alt="" data-size="line">. |
+| ![](../../../assets/Global_Responnse.png) | List of all parameters in the response by the API. The sensitive parameters are labeled <img src="../../../assets/Sensitive.png" alt="" data-size="line">. |
 
 <details>
 
@@ -119,6 +119,6 @@ The following table describes the available information:
 To filter the lists or to display them in ascending or descending order, do the following:
 
 - To view list entries in ascending or descending order, point to the relevant header and select **Click to sort ascending** or **Click to sort descending** respectively.
-- To only show specific parameters, for example, a specific status, point to the relevant header, click ![](../../../assets/Filter.png)and then select the desired parameter(s) from the filter options.
+- To only show specific parameters, for example, a specific status, point to the relevant header, click <img src="../../../assets/Filter.png" alt="" data-size="line">and then select the desired parameter(s) from the filter options.
 
 </details>

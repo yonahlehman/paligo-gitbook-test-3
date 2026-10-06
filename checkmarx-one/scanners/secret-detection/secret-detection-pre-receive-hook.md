@@ -227,29 +227,29 @@ The final step is to connect the script to the isolated environment and enable i
 2. Select **Enterprise settings**.
 3. At the top of the page, click **Settings**:
 
-   ![](../../../assets/CID_b3b1f53afaa1e9100fe871422aae9589.png)
+   <figure><img src="../../../assets/CID_b3b1f53afaa1e9100fe871422aae9589.png" alt="" width="714"><figcaption></figcaption></figure>
 4. In the left-hand menu, select **Hooks**:
 5. Click **Add pre-receive hook**:
 
-   ![](../../../assets/CID_e8f7e4239edfef7921d0a1c95badbedb.png)
+   <figure><img src="../../../assets/CID_e8f7e4239edfef7921d0a1c95badbedb.png" alt="" width="760"><figcaption></figcaption></figure>
 
 Next, enter a name for the hook, then select the environment you created earlier (if following this guide exactly, it will be named CheckmarxEnv). After that, choose the repository where the script is stored, and specify the path to the script within that repository.
 
-![](../../../assets/CID_fb208b984cc6d41300a8d4fb986d6cb0.png)
+<figure><img src="../../../assets/CID_fb208b984cc6d41300a8d4fb986d6cb0.png" alt="" width="417"><figcaption></figcaption></figure>
 
 Finally, ensure the first option, **Use the exit-status to accept or reject pushes**,” is enabled. The other two options are not required. However, for initial setup, it's recommended to disable the second option, **Enable this pre-receive hook on all repositories by default**, so the hook can be tested on a specific repository first, minimizing the risk of disruptions in other repositories.
 
-![](../../../assets/CID_6cd6bc737e33d55b5ef7c5dec54f2944.png)
+<figure><img src="../../../assets/CID_6cd6bc737e33d55b5ef7c5dec54f2944.png" alt="" width="544"><figcaption></figcaption></figure>
 
 To enable the hook for a specific repository, first navigate to that repository. Then, at the top of the page, click on **Settings**.
 
 In the left pane, click on **Hooks**:
 
-![](../../../assets/CID_b9c5937ce362a35bb248cc2ead52421f.png)
+<figure><img src="../../../assets/CID_b9c5937ce362a35bb248cc2ead52421f.png" alt="" width="305"><figcaption></figcaption></figure>
 
 And then you will be able to enable/disable the hook for that specific repository:
 
-![](../../../assets/CID_58933e89fbb19f2ee5707c0933f967ef.png)
+<figure><img src="../../../assets/CID_58933e89fbb19f2ee5707c0933f967ef.png" alt="" width="760"><figcaption></figcaption></figure>
 
 ### Important Note on Log Limitations in GitHub
 
@@ -261,7 +261,7 @@ To access the audit log, follow the same UI flow shown earlier:
 
 **Profile Picture → Enterprise Settings → Settings:**
 
-![](../../../assets/CID_edec9f1f53ba4de158a3bb1eecf74986.png)
+<figure><img src="../../../assets/CID_edec9f1f53ba4de158a3bb1eecf74986.png" alt="" width="760"><figcaption></figcaption></figure>
 
 Clicking on the ellipsis inside the recent events will show more information about the user and the event.
 
@@ -330,17 +330,17 @@ First, find the relative path of the repository through the UI.
 
 Log in as an admin, then locate **Admin Area** in the bottom corner of the left sidebar:
 
-![](../../../assets/CID_8cb39a1a8d9b01fff34ce18d77ddb178.png)
+<figure><img src="../../../assets/CID_8cb39a1a8d9b01fff34ce18d77ddb178.png" alt="" width="221"><figcaption></figcaption></figure>
 
 Click **Admin Area**, and in the left sidebar select **Projects**.
 
 Next, choose the project where the hook should be added:
 
-![](../../../assets/CID_5375d7b70379007e161711526cbeb02d.png)
+<figure><img src="../../../assets/CID_5375d7b70379007e161711526cbeb02d.png" alt="" width="760"><figcaption></figcaption></figure>
 
 You will now see the relative repository path - for example:
 
-![](../../../assets/CID_ae73714f6b9a56b00f0528d6ebd58e9d.png)
+<figure><img src="../../../assets/CID_ae73714f6b9a56b00f0528d6ebd58e9d.png" alt="" width="549"><figcaption></figcaption></figure>
 
 This path will be used to continue the guide, but be sure to use your own.
 
@@ -533,7 +533,7 @@ curl -v -X PUT \
 
 Replace `<HOOK_ID>` with the ID returned during upload - in this example, 12. For instance, based on the example screenshot:
 
-![](../../../assets/CID_ded4e35e4282db6032cdcbc96aa93bc4.png)
+<figure><img src="../../../assets/CID_ded4e35e4282db6032cdcbc96aa93bc4.png" alt="" width="409"><figcaption></figcaption></figure>
 
 The project name is `sscs` and the repository name is `secrets`.
 

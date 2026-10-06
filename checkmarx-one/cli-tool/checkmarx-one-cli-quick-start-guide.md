@@ -75,16 +75,16 @@ This quick-start tutorial describes how to authenticate using an API Key. For al
 
    **To generate an API Key:**
 
-   1. Log in to the Checkmarx One web portal and select **Settings ![](../../assets/Settings.png)> Identity and Access Management** in the main navigation.
+   1. Log in to the Checkmarx One web portal and select **Settings <img src="../../assets/Settings.png" alt="" data-size="line">> Identity and Access Management** in the main navigation.
 
       The IAM portal opens.
    2. In the main navigation, click **API Keys**, then click on the **Create Key** button.
 
-      ![](../../assets/API_Keys.png)
+      <figure><img src="../../assets/API_Keys.png" alt="" width="648"><figcaption></figcaption></figure>
 
       The API Key configuration window opens.
 
-      ![](../../assets/API_Keys_Create.png)
+      <figure><img src="../../assets/API_Keys_Create.png" alt="" width="360"><figcaption></figcaption></figure>
    3. You can optionally adjust the configuration as follows:
 
       - **Note** - Add a descriptive note to the API Key.
@@ -98,7 +98,7 @@ This quick-start tutorial describes how to authenticate using an API Key. For al
 
       The API Key is created and a window opens showing the key.
 
-      ![](../../assets/API_Keys_Created.png)
+      <figure><img src="../../assets/API_Keys_Created.png" alt="" width="360"><figcaption></figcaption></figure>
    5. Copy the key and save it in a place where you will be able to retrieve it for future use.
 
    {% hint style="info" %}

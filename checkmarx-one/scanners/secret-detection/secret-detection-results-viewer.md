@@ -2,10 +2,10 @@
 
 **To view Secret Detection scan results:**
 
-1. Go to the **Workspace** ![](../../../assets/Workspace.png)> **Projects** page and hover over the **Results** button for the desired project.
+1. Go to the **Workspace** <img src="../../../assets/Workspace.png" alt="" data-size="line">> **Projects** page and hover over the **Results** button for the desired project.
 2. Select the **SCS** scanner.
 
-   ![](../../../assets/Image_2082.png)
+   <figure><img src="../../../assets/Image_2082.png" alt="" width="576"><figcaption></figcaption></figure>
 
    The SCS results viewer opens with **Secret Detection** selected for display.
 

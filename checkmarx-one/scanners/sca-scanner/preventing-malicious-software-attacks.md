@@ -36,15 +36,15 @@ The following table shows some examples of suspected malware risks of each type 
 
 Suspected malware risks are shown as a separate group in the **Scan Results** > **Risks tab**.
 
-![](../../../assets/Image_185.png)
+<figure><img src="../../../assets/Image_185.png" alt="" width="648"><figcaption></figcaption></figure>
 
 Click on the row of a suspected malware risk to open a details page showing detailed info about that risk. On the details page, you can also manage the risk state and add comments.
 
-![](../../../assets/Image_186.png)
+<figure><img src="../../../assets/Image_186.png" alt="" width="648"><figcaption></figcaption></figure>
 
 In addition, when you click on a package with a suspected malware risk on the **Scan Results** > **Packages** tab, the details page that opens shows gauge widgets representing three risk categories (Reputation, Reliability and Behavior). The scores are given on a scale of 0-10, with 10 indicating the highest level of security.
 
-![](../../../assets/Image_001.png)
+<figure><img src="../../../assets/Image_001.png" alt="" width="417"><figcaption></figcaption></figure>
 
 ## Creating Suspected Malware Policies
 
@@ -66,4 +66,4 @@ Suspected Malware conditions can also be combined with other condition sets, suc
 
 In the following example, the policy is configured to trigger only when a **Critical** severity suspected malware risk is identified in a package that is not classified as a **Dev** or **Test** dependency
 
-![](../../../assets/policy.png)
+<figure><img src="../../../assets/policy.png" alt="" width="288"><figcaption></figcaption></figure>

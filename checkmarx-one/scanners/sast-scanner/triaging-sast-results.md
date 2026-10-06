@@ -72,4 +72,4 @@ In **Account Settings** > **SAST**, the **Results scope level** configuration de
 
 Use notes to document your work with a vulnerability or improve collaboration by sharing it with colleagues. Clicking **Add Note** opens the note panel, where you can view the highlighted risk, add a new note, or view previous notes. Make sure to click **Save Note** before exiting.
 
-Hover over **Add Note** ![](../../../assets/note_icon.png) to view the latest notes and the number of notes of a vulnerability. Notes are only available for one result at a time and are viewable by multiple users.
+Hover over **Add Note** <img src="../../../assets/note_icon.png" alt="" data-size="line"> to view the latest notes and the number of notes of a vulnerability. Notes are only available for one result at a time and are viewable by multiple users.

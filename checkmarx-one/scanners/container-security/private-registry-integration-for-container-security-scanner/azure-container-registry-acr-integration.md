@@ -13,17 +13,17 @@ Checkmarx One provides an integration with Azure Container Registry (ACR), enabl
 
 **To set up an Azure Container Registry Integration:**
 
-1. In the main menu, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main menu, select **Integrations** <img src="../../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, hover over the **ACR** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
    The **ACR Integration** wizard opens.
 
-   ![](../../../../assets/ACR_Integration.png)
+   <figure><img src="../../../../assets/ACR_Integration.png" alt="" width="360"><figcaption></figcaption></figure>
 4. **Name Your Account** and optionally fill in the **Description** and **Associate Tags** fields, then click **Next**.
 5. Under **Username** enter Service Principal App (Client) ID **or** for token based permissions enter your username.
 
-   ![](../../../../assets/acrint.png)
+   <figure><img src="../../../../assets/acrint.png" alt="" width="360"><figcaption></figcaption></figure>
 6. In the **API Key** field, enter your Service Principal Password (Client Secret) or for token based permission enter your fine grained access scope token.
 7. In the **URL** field, enter the URL for your Azure account using the format `https://<azure_registry_name>.azurecr.io`.
 8. Click **Add Account**.
@@ -39,5 +39,5 @@ You can monitor the status of your ACR integrations to verify whether the integr
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main navigation, select **Integrations** <img src="../../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.

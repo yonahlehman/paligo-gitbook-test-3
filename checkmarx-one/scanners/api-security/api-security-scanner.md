@@ -2,7 +2,7 @@
 
 The **API Security Scanner** screen provides an overview of the last completed API security scan using API Security widgets.
 
-![](../../../assets/APISec_doc_12.png)
+<figure><img src="../../../assets/APISec_doc_12.png" alt="" width="576"><figcaption></figcaption></figure>
 
 ## API Security Widgets
 
@@ -10,13 +10,13 @@ The **API Security Scanner** screen provides an overview of the last completed A
 
 The number of detected APIs in the code. This scan detected **10** APIs in the code.
 
-![](../../../assets/APISEC_Scanner_Dashboard__Detected_APIs.png)
+<figure><img src="../../../assets/APISEC_Scanner_Dashboard__Detected_APIs.png" alt="" width="288"><figcaption></figcaption></figure>
 
 ### Sensitive Data APIs
 
 The number of APIs with at least one sensitive data attribute. This scan detected sensitive data attributes in **9** out of the **10** detected APIs. Sensitive Data categories and parameters are listed in the table below.
 
-![](../../../assets/APISEC_Scanner_Dashboard__Sensitive_Data_APIs.png)
+<figure><img src="../../../assets/APISEC_Scanner_Dashboard__Sensitive_Data_APIs.png" alt="" width="288"><figcaption></figcaption></figure>
 
 | Category | Parameters |
 |---|---|
@@ -40,7 +40,7 @@ A list of sensitive data attributes with an indicator on how often each of these
 
 In the illustrated example, API Security detected **Parameter Tampering** twice and three more once each.
 
-![](../../../assets/6485115003.png)
+<figure><img src="../../../assets/6485115003.png" alt="" width="288"><figcaption></figcaption></figure>
 
 ### Results by Risk
 
@@ -48,19 +48,19 @@ The number of sensitive data attributes according to their risk.
 
 In the illustrated example, API Security detected **5** vulnerabilities of which **2** were of high risk and **3** of medium risk.
 
-![](../../../assets/APISEC_Scanner_Dashboard__Results_by_Risk.png)
+<figure><img src="../../../assets/APISEC_Scanner_Dashboard__Results_by_Risk.png" alt="" width="432"><figcaption></figcaption></figure>
 
 ## Viewing Results
 
 To view results, click **View Results**. The Risks table appears. It lists the risks and provides additional information detailed in the parameters below and described in Viewing API Results.
 
-![](../../../assets/APISec_doc_04.png)
+<figure><img src="../../../assets/APISec_doc_04.png" alt="" width="576"><figcaption></figcaption></figure>
 
 | Parameter | Description |
 |---|---|
-| **Severity**![](../../../assets/Severity.png) | Indicates the risk severity as follows:<br>• ![](../../../assets/Image_1339.png)**Critical**<br>• ![](../../../assets/Image_1337.png)**High**<br>• ![](../../../assets/Image_1335.png)**Medium**<br>• ![](../../../assets/Image_1334.png)**Low**<br>• ![](../../../assets/Image_1331.png)**Info** |
+| **Severity**<img src="../../../assets/Severity.png" alt="" data-size="line"> | Indicates the risk severity as follows:<br>• <img src="../../../assets/Image_1339.png" alt="" data-size="line">**Critical**<br>• <img src="../../../assets/Image_1337.png" alt="" data-size="line">**High**<br>• <img src="../../../assets/Image_1335.png" alt="" data-size="line">**Medium**<br>• <img src="../../../assets/Image_1334.png" alt="" data-size="line">**Low**<br>• <img src="../../../assets/Image_1331.png" alt="" data-size="line">**Info** |
 | **Risk Name** | The name of the risk. |
-| **Status** | Indicates the status of the risk as follows:<br>![](../../../assets/New.png)- A newly detected vulnerability.<br>![](../../../assets/Recurrent_List.png)- The vulnerability has been detected at least once before. |
+| **Status** | Indicates the status of the risk as follows:<br><img src="../../../assets/New.png" alt="" data-size="line">- A newly detected vulnerability.<br><img src="../../../assets/Recurrent_List.png" alt="" data-size="line">- The vulnerability has been detected at least once before. |
 | **Endpoint Path** | The end path of the resource URL. |
 | **Method** | The operation that the endpoint performs on resources. |
 | **Data Origin** | Indicates where the risk was detected, for example inside the **code**. |
@@ -70,15 +70,15 @@ To view results, click **View Results**. The Risks table appears. It lists the r
 
 You can view the parameters of a *code* risk by clicking its row.
 
-- Under **Parameters**, click ![](../../../assets/View_All_Parameters.png). All sensitive data parameters in the code appear.
+- Under **Parameters**, click <img src="../../../assets/View_All_Parameters.png" alt="" data-size="line">. All sensitive data parameters in the code appear.
 
-  ![](../../../assets/Parameters_Global.png)
+  <figure><img src="../../../assets/Parameters_Global.png" alt="" width="252"><figcaption></figcaption></figure>
 - | Interface | Description |
   |---|---|
-  | ![](../../../assets/Global_Warnings.png) | List of all sensitive parameters in the API with warnings. This section is identical to the list of sensitive data parameters. |
-  | ![](../../../assets/Global_Requests.png) | List of all parameters in the request to the API. The sensitive parameters are labeled ![](../../../assets/Sensitive.png). |
-  | ![](../../../assets/Global_Responnse.png) | List of all parameters in the response by the API. The sensitive parameters are labeled ![](../../../assets/Sensitive.png). |
+  | <img src="../../../assets/Global_Warnings.png" alt="" width="393"> | List of all sensitive parameters in the API with warnings. This section is identical to the list of sensitive data parameters. |
+  | <img src="../../../assets/Global_Requests.png" alt="" width="381"> | List of all parameters in the request to the API. The sensitive parameters are labeled <img src="../../../assets/Sensitive.png" alt="" data-size="line">. |
+  | <img src="../../../assets/Global_Responnse.png" alt="" width="397"> | List of all parameters in the response by the API. The sensitive parameters are labeled <img src="../../../assets/Sensitive.png" alt="" data-size="line">. |
 
 To view the details of a *documentation* risk, click its row and the vulnerability in the Swagger file will appear with an embedded description box.
 
-![](../../../assets/SwaggerFileRiskView.png)
+<figure><img src="../../../assets/SwaggerFileRiskView.png" alt="" width="576"><figcaption></figcaption></figure>

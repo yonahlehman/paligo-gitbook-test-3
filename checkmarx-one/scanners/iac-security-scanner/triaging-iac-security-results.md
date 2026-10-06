@@ -41,11 +41,11 @@ You can adjust the predicate for a specific vulnerability while viewing that vul
 1. Navigate to the vulnerability that you would like to edit.
 2. To adjust the severity, click on the **Severity** field, and select from the dropdown list the severity that you would like to assign. Options are: Critical High, Medium, Low, Info.
 
-   ![](../../../assets/6429442145.png)
+   <figure><img src="../../../assets/6429442145.png" alt="" width="576"><figcaption></figcaption></figure>
 3. To adjust the state, click on the **State** field, and select from the dropdown list the state that you would like to assign. Options are: To Verify, Not Exploitable, Proposed Not Exploitable, Confirmed or Urgent.
 4. To add a note, click on the **Note** icon in the toolbar. In the **Notes** pane that opens, click **+ Add** and then enter the desired text and click the **Add** button at the bottom.
 
-   ![](../../../assets/6416564252.png)
+   <figure><img src="../../../assets/6416564252.png" alt="" width="288"><figcaption></figcaption></figure>
 
 ## Triaging Multiple Vulnerabilities (Bulk Action)
 
@@ -59,17 +59,17 @@ You can adjust the predicate for a specific vulnerability while viewing that vul
 
    A menu bar is shown at the top of the table.
 
-   ![](../../../assets/IaC_Triaging_Multiple_Vulnerabilities.png)
+   <figure><img src="../../../assets/IaC_Triaging_Multiple_Vulnerabilities.png" alt="" width="576"><figcaption></figcaption></figure>
 2. To adjust the severity, click on the **Change** **Severity** button, and select from the dropdown list the severity that you would like to assign.
 
    Options are: Critical High, Medium, Low, Info.
 
-   ![](../../../assets/IaC_Change_Severity.png)
+   <figure><img src="../../../assets/IaC_Change_Severity.png" alt="" width="324"><figcaption></figcaption></figure>
 3. To adjust the state, click on the **Change** **State** button, and select from the dropdown list the state that you would like to assign.
 
    Options are: To Verify, Not Exploitable, Proposed Not Exploitable, Confirmed or Urgent.
 
-   ![](../../../assets/IaC_Change_State.png)
+   <figure><img src="../../../assets/IaC_Change_State.png" alt="" width="324"><figcaption></figcaption></figure>
 4. To add a note, click on the **Add Note** button. In the **Notes** pane that opens, enter the desired text and click **Save**.
 
-   ![](../../../assets/IaC_Add_Note.png)
+   <figure><img src="../../../assets/IaC_Add_Note.png" alt="" width="324"><figcaption></figcaption></figure>

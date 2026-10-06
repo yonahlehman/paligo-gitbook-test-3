@@ -94,16 +94,16 @@ These values can be stored in the CLI configuration or provided using the `--bas
 
   **To generate an API Key:**
 
-  1. Log in to the Checkmarx One web portal and select **Settings ![](../../../assets/Settings.png)> Identity and Access Management** in the main navigation.
+  1. Log in to the Checkmarx One web portal and select **Settings <img src="../../../assets/Settings.png" alt="" data-size="line">> Identity and Access Management** in the main navigation.
 
      The IAM portal opens.
   2. In the main navigation, click **API Keys**, then click on the **Create Key** button.
 
-     ![](../../../assets/API_Keys.png)
+     <figure><img src="../../../assets/API_Keys.png" alt="" width="648"><figcaption></figcaption></figure>
 
      The API Key configuration window opens.
 
-     ![](../../../assets/API_Keys_Create.png)
+     <figure><img src="../../../assets/API_Keys_Create.png" alt="" width="360"><figcaption></figcaption></figure>
   3. You can optionally adjust the configuration as follows:
 
      - **Note** - Add a descriptive note to the API Key.
@@ -117,7 +117,7 @@ These values can be stored in the CLI configuration or provided using the `--bas
 
      The API Key is created and a window opens showing the key.
 
-     ![](../../../assets/API_Keys_Created.png)
+     <figure><img src="../../../assets/API_Keys_Created.png" alt="" width="360"><figcaption></figcaption></figure>
   5. Copy the key and save it in a place where you will be able to retrieve it for future use.
 
   {% hint style="info" %}
@@ -170,12 +170,12 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
 
   **To create an OAuth Client:**
 
-  1. Log in to Checkmarx One and click on **Settings ![](../../../assets/Settings.png)> Identity and Access Management** in the Menu panel.
+  1. Log in to Checkmarx One and click on **Settings <img src="../../../assets/Settings.png" alt="" data-size="line">> Identity and Access Management** in the Menu panel.
 
-     ![](../../../assets/Settings_IAM.png)
+     <figure><img src="../../../assets/Settings_IAM.png" alt="" width="648"><figcaption></figcaption></figure>
   2. In the **Identity and Access Management** console, click **OAuth Clients** and then click **Create Client**.
 
-     ![](../../../assets/OAuth_Create.png)
+     <figure><img src="../../../assets/OAuth_Create.png" alt="" width="648"><figcaption></figcaption></figure>
   3. In the **Client ID** field, enter a descriptive name for Client, and then click **Create**.
 
      {% hint style="info" %}
@@ -186,12 +186,12 @@ The CLI automatically extracts all relevant account info (Base URL, Auth URL, Te
 
      The Client Settings screen is shown.
 
-     ![](../../../assets/OAuth_Client_Settings.png)
+     <figure><img src="../../../assets/OAuth_Client_Settings.png" alt="" width="648"><figcaption></figcaption></figure>
   4. Copy the **Client ID** for use in the plugin configuration.
   5. Click on the **Regenerate** button to generate the Secret.
   6. In the dialog that opens, copy the **Secret** for use in the plugin configuration, and then click **Ok** to close the dialog
 
-     ![](../../../assets/OAuth_Client_Generate.png)
+     <figure><img src="../../../assets/OAuth_Client_Generate.png" alt="" width="432"><figcaption></figcaption></figure>
   7. You can optionally adjust the **Settings** as follows:
 
      - **Name** - Specify the name that will be displayed for this Client.

@@ -122,16 +122,16 @@ Below are tables describing the various VEX fields that define the exploitabilit
 
 1. On the Projects page, hover over the **Results** button for the desired project and select **SCA**.
 
-   ![](../../../assets/Image_031.png)
+   <figure><img src="../../../assets/Image_031.png" alt="" width="648"><figcaption></figcaption></figure>
 2. On the **Scan Results** page, click on the **Risks** tab. The **All Risks** sub-tab is displayed.
 3. Click on a risk to open the **Risk Details** page for that risk.
 4. Click on the **Edit** button.
 
-   ![](../../../assets/Image_028-57302227.png)
+   <figure><img src="../../../assets/Image_028-57302227.png" alt="" width="648"><figcaption></figcaption></figure>
 
    The **Management of Risk** panel opens.
 
-   ![](../../../assets/Image_030.png)
+   <figure><img src="../../../assets/Image_030.png" alt="" width="288"><figcaption></figcaption></figure>
 
    {% hint style="info" %}
    Alternatively, you can open the **Management of Risk** panel by clicking on the Comments button in the **Customization** section at the bottom of the **Risk Details** page.
@@ -151,7 +151,7 @@ Below are tables describing the various VEX fields that define the exploitabilit
 
    1. Adjust the toggle to enable **VEX** options.
 
-      ![](../../../assets/VEXManageStates.png)
+      <figure><img src="../../../assets/VEXManageStates.png" alt="" width="288"><figcaption></figcaption></figure>
 
       By *default*, VEX state is mapped from the risk state set in the regular triage workflow as follows:
 
@@ -170,17 +170,17 @@ Below are tables describing the various VEX fields that define the exploitabilit
 1. Go to SCA results viewer > **Risks** tab > **All Risks** sub-tab.
 2. Select the checkbox next to each risk you would like to include in the bulk action triage, and click **Manage States**.
 
-   ![](../../../assets/Image_305.png)
+   <figure><img src="../../../assets/Image_305.png" alt="" width="648"><figcaption></figcaption></figure>
 
    The **Management of Risks** panel opens.
 
-   ![](../../../assets/Image_306.png)
+   <figure><img src="../../../assets/Image_306.png" alt="" width="288"><figcaption></figcaption></figure>
 3. Make changes to the **State**, **Rating**, and **Make a Comment Before Saving**.
 4. If you would like to adjust the VEX parameters, proceed as follows:,
 
    1. Adjust the toggle to enable **VEX** options.
 
-      ![](../../../assets/VEXManageStates.png)
+      <figure><img src="../../../assets/VEXManageStates.png" alt="" width="288"><figcaption></figcaption></figure>
 
       By *default*, VEX state is mapped from the risk state set in the regular triage workflow as follows:
 
@@ -200,11 +200,11 @@ Once a change has been made, the new State and Severity are immediately shown in
 
 State changes are shown in the **All Risks** table. Not Exploitable risks are marked with a strikethrough line.
 
-![](../../../assets/Image_033.png)
+<figure><img src="../../../assets/Image_033.png" alt="" width="648"><figcaption></figcaption></figure>
 
 In addition, a detailed history of all changes is shown in the **History** tab in the **Management of Risk** and **Management of packages**panels. For each change that was made, the name of the user who made the change and the time of the change are shown. In addition, the new state and/or severity is shown alongside the previous state/severity.
 
-![](../../../assets/Image_1942.png)
+<figure><img src="../../../assets/Image_1942.png" alt="" width="360"><figcaption></figcaption></figure>
 
 ## Management of Packages
 
@@ -216,7 +216,7 @@ When the designated snooze period ends, an **auto-scan** (i.e., automatic scan r
 
 While viewing the Package Details page for a specific package, you can open a side panel by clicking on the **State** button on the header bar, with tabs for **New Action** (i.e., making changes to the state) and for viewing **History** of changes made.
 
-![](../../../assets/Image_038-b403de93.png)
+<figure><img src="../../../assets/Image_038-b403de93.png" alt="" width="288"><figcaption></figcaption></figure>
 
 ### Limitations
 
@@ -248,16 +248,16 @@ When you mute or snooze a package in SCA, you trigger a scan recalculation that 
 
 1. On the Projects page, hover over the **Results** button for the desired project and from the scanner drop-down click on **SCA**.
 
-   ![](../../../assets/Image_031.png)
+   <figure><img src="../../../assets/Image_031.png" alt="" width="648"><figcaption></figcaption></figure>
 2. On the **Scan Results** page, click on the **Packages** tab. The **All Packages** sub-tab is displayed.
 3. Click on a package to open the **Package Details** page for that package.
 4. In the tab's header bar, click on the **State** button (showing the current state).
 
-   ![](../../../assets/Image_029.png)
+   <figure><img src="../../../assets/Image_029.png" alt="" width="648"><figcaption></figcaption></figure>
 
    The **Management of Packages** panel opens.
 
-   ![](../../../assets/Image_032.png)
+   <figure><img src="../../../assets/Image_032.png" alt="" width="288"><figcaption></figcaption></figure>
 
    {% hint style="info" %}
    Alternatively, you can open the **Management of Packages** panel by clicking on the Comments button in the **Customization** section at the bottom of the **Package Details** page.
@@ -287,7 +287,7 @@ When you mute or snooze a package in SCA, you trigger a scan recalculation that 
 
    The **Management of Risks** panel opens.
 
-   ![](../../../assets/Image_308.png)
+   <figure><img src="../../../assets/Image_308.png" alt="" width="288"><figcaption></figcaption></figure>
 3. Change the **State**, and add a **Comment** (required).
 4. Click **Approve**.
 
@@ -299,11 +299,11 @@ Once a State change has been made, a red dot is shown next to the relevant Packa
 
 State changes are shown in the **Package Details** page. Muted packages will have a pink background for the header bar with a muted icon and Snoozed packages will have a yellow background for the header bar with a snoozed icon.
 
-![](../../../assets/Image_035.png)
+<figure><img src="../../../assets/Image_035.png" alt="" width="648"><figcaption></figcaption></figure>
 
 In addition, a detailed history of all changes is shown in the **Management of Risk** panel > **History** tab. For each change that was made, the name of the user who made the change and the time of the change are shown. In addition, for state changes, the new state is shown alongside the previous state.
 
-![](../../../assets/Image_034.png)
+<figure><img src="../../../assets/Image_034.png" alt="" width="288"><figcaption></figcaption></figure>
 
 ## Managing Legal Risks
 
@@ -325,9 +325,9 @@ Use the procedure below to triage items across projects in the Global Inventory.
 This procedure demonstrates how to triage a package across multiple projects. The steps for triaging vulnerabilities, malware risks, or licenses are the same—navigate to the **Vulnerabilities and Malware** or **Licenses** tab and follow the procedure described below.
 {% endhint %}
 
-1. Access the **Global Inventory and Risks** page by clicking on the **Resources ![](../../../assets/Resources.png)> SCA Inventory and Risks** in the main navigation.
+1. Access the **Global Inventory and Risks** page by clicking on the **Resources <img src="../../../assets/Resources.png" alt="" data-size="line">> SCA Inventory and Risks** in the main navigation.
 
-   ![](../../../assets/Global-inventory-and-risks.png)
+   <figure><img src="../../../assets/Global-inventory-and-risks.png" alt="" width="648"><figcaption></figcaption></figure>
 2. Use the search bar to find the particular package you want to triage.
 3. Check the selection boxes of the instances of the package you want to triage.
 

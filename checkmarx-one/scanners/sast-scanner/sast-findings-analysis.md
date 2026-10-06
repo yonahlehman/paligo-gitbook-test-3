@@ -10,10 +10,10 @@ Findings Analysis can be configured globally, under your tenant's LLM-based sett
 Configuration precedence: **Tenant** → **Project** → **Scan** (each level overrides the one before it).
 {% endhint %}
 
-- **Tenant-level**: Go to ![](../../../assets/Homepage_settings_cog-account_settings_.png) > **Global Settings** > **SAST** >, and then under **LLM-based Settings**, set **Findings Analysis** to true to enable it (by default **Findings Analysis** is disabled and set to false).
+- **Tenant-level**: Go to <img src="../../../assets/Homepage_settings_cog-account_settings_.png" alt="" data-size="line"> > **Global Settings** > **SAST** >, and then under **LLM-based Settings**, set **Findings Analysis** to true to enable it (by default **Findings Analysis** is disabled and set to false).
 
   ![](../../../assets/sastfa1.png)
-- **Project-level**: Go to **Projects** > at the end of the project row, select ![](../../../assets/Vertical_Ellipsis.png) > **Project Settings** > **Rules**, and then set **Findings Analysis** to true.
+- **Project-level**: Go to **Projects** > at the end of the project row, select <img src="../../../assets/Vertical_Ellipsis.png" alt="" data-size="line"> > **Project Settings** > **Rules**, and then set **Findings Analysis** to true.
 
   ![](../../../assets/pjsettingssastfa.png)
 
@@ -28,7 +28,7 @@ Configuration precedence: **Tenant** → **Project** → **Scan** (each level ov
   }
   ```
 
-**Findings Analysis** also follows your tenant's overall AI usage control. If AI features are disabled at the tenant level, **Findings Analysis** is disabled as well, regardless of its individual setting. Select ![](../../../assets/Homepage_settings_cog-account_settings_.png) > **Global Settings** > **AI**, and then under **AI Capabilities** , ensure **Allow AI Usage** is toggled on.
+**Findings Analysis** also follows your tenant's overall AI usage control. If AI features are disabled at the tenant level, **Findings Analysis** is disabled as well, regardless of its individual setting. Select <img src="../../../assets/Homepage_settings_cog-account_settings_.png" alt="" data-size="line"> > **Global Settings** > **AI**, and then under **AI Capabilities** , ensure **Allow AI Usage** is toggled on.
 
 ![](../../../assets/sastfa2.png)
 
@@ -40,7 +40,7 @@ Findings Analysis runs once SAST scan results are available, as part of the scan
 
 ![](../../../assets/sastfa3.png)
 
-Only new findings (**State** = **New**) are evaluated this way: on a project's first scan, all findings are analyzed, while on subsequent incremental scans only newly detected findings go through the classification. The classification from a finding's first analysis is retained and reapplied on later scans of the same project, so a finding classified as a false positive continues to be filtered out on subsequent scans without being re-analyzed. This prevents the same false positive from reappearing in results - so a scan showing few or no findings can mean all detected findings were already classified as false positives in an earlier scan, not that something went wrong. **Findings Analysis** runs after the scan. To confirm whether it ran for a given scan, go to **Scan History**, select the scan, open the **Scanners** tab, select **SAST** > ![](../../../assets/Vertical_Ellipsis.png) > **More Details** > scroll down to the **Findings Analysis** entries.
+Only new findings (**State** = **New**) are evaluated this way: on a project's first scan, all findings are analyzed, while on subsequent incremental scans only newly detected findings go through the classification. The classification from a finding's first analysis is retained and reapplied on later scans of the same project, so a finding classified as a false positive continues to be filtered out on subsequent scans without being re-analyzed. This prevents the same false positive from reappearing in results - so a scan showing few or no findings can mean all detected findings were already classified as false positives in an earlier scan, not that something went wrong. **Findings Analysis** runs after the scan. To confirm whether it ran for a given scan, go to **Scan History**, select the scan, open the **Scanners** tab, select **SAST** > <img src="../../../assets/Vertical_Ellipsis.png" alt="" data-size="line"> > **More Details** > scroll down to the **Findings Analysis** entries.
 
 ![](../../../assets/SASTFA.png)
 

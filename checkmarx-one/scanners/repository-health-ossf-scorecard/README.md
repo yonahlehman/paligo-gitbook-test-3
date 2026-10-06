@@ -22,11 +22,11 @@ You can use either of the two types of [GitHub tokens](https://docs.github.com/e
 
 For "Personal access token (classic)" you need to select the "repo" scope.
 
-![](../../../assets/mandatory-to-login-classic.jpg)
+<figure><img src="../../../assets/mandatory-to-login-classic.jpg" alt="" width="576"><figcaption></figcaption></figure>
 
 For "Fine grained personal access token" you need **read-only** access for Commit statuses, Contents, Issues and Metadata.
 
-![](../../../assets/all.png)
+<figure><img src="../../../assets/all.png" alt="" width="576"><figcaption></figcaption></figure>
 
 </details>
 

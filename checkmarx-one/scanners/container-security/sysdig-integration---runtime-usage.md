@@ -20,13 +20,13 @@ It is possible to set up several separate Sysdig integrations in your account, f
 
 **To set up a Sysdig integration:**
 
-1. In the main navigation, select **Integrations** ![](../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main navigation, select **Integrations** <img src="../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Setup** tab, under **Runtime & Cloud**, hover over the **Sysdig** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
    The **Sysdig Integration** wizard opens.
 
-   ![](../../../assets/Sysdig_Integration.png)
+   <figure><img src="../../../assets/Sysdig_Integration.png" alt="" width="360"><figcaption></figcaption></figure>
 4. **Name Your Account** and optionally fill in the **Description** and **Associate Tags** fields, then click **Next**.
 5. Under **Sysdig Risk Spotlight Token** enter the Risk Spotlight Token for your Sysdig account.
 
@@ -34,12 +34,12 @@ It is possible to set up several separate Sysdig integrations in your account, f
    This token can be found in the Account Settings of your Sysdig account.
    {% endhint %}
 
-   ![](../../../assets/Image_1793.png)
+   <figure><img src="../../../assets/Image_1793.png" alt="" width="360"><figcaption></figcaption></figure>
 6. In the **Region** field, select your Sysdig region.
 7. In the **Clusters** field, select the clusters you would like to include in the integration (multi-select).
 8. Click **Save**.
 
-   The integration is set up and you are redirected to the **Integrations** ![](../../../assets/Integrations.png)> **Cloud Connections** tab where you can monitor the connection status. After a few minutes the integration should be **Connected**. Once connected, in the Container Security scan results you will begin seeing runtime data.
+   The integration is set up and you are redirected to the **Integrations** <img src="../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections** tab where you can monitor the connection status. After a few minutes the integration should be **Connected**. Once connected, in the Container Security scan results you will begin seeing runtime data.
 
    {% hint style="info" %}
    Runtime data is only shown for images that were scanned via the CLI using the `--container-images` flag.
@@ -55,7 +55,7 @@ You can monitor the status of your Sysdig integrations to see whether or not the
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** ![](../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main navigation, select **Integrations** <img src="../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.
 
    The different statuses are indicated as follows:
@@ -79,7 +79,7 @@ Possible values for the image-level **Runtime Usage** are:
 
 You can drill down to see details about the packages in the image. An icon indicating runtime usage is shown in the **Vulnerabilities** tab, as part of the header bar for each vulnerable package.
 
-![](../../../assets/Image_1716.png)
+<figure><img src="../../../assets/Image_1716.png" alt="" width="576"><figcaption></figcaption></figure>
 
 Possible values for the package-level **Runtime Usage** are:
 
@@ -90,4 +90,4 @@ Possible values for the package-level **Runtime Usage** are:
 
 You can filter results to show only packages with specific runtime usage. For example, you can show only packages that are used in runtime.
 
-![](../../../assets/containersecurityfilter.png)
+<figure><img src="../../../assets/containersecurityfilter.png" alt="" width="540"><figcaption></figcaption></figure>

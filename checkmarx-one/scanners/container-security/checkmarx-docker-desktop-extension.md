@@ -158,12 +158,12 @@ The extension is available on [Docker Marketplace](https://hub.docker.com/extens
 1. In your Docker Desktop console, click on **+ Add Extensions** and search for the **Checkmarx** extension.
 2. Click **Install**.
 
-   ![](../../../assets/CID_7d1b8d2b177c529a8018d77d4faaaa60.png)
+   <figure><img src="../../../assets/CID_7d1b8d2b177c529a8018d77d4faaaa60.png" alt="" width="720"><figcaption></figcaption></figure>
 3. Follow on-screen prompts to complete the installation process.
 
    The Checkmarx extension is installed and the icon is shown in the **Extensions** section of the navigation pane.
 
-   ![](../../../assets/CID_70e4a45887a083ad881d751bd8cfaa2f.png)
+   <figure><img src="../../../assets/CID_70e4a45887a083ad881d751bd8cfaa2f.png" alt="" width="345"><figcaption></figcaption></figure>
 
 ## Scanning Images
 
@@ -179,13 +179,13 @@ The extension stores scan results, so that if an image hasn’t been changed sin
 
    The Checkmarx screen opens.
 
-   ![](../../../assets/Image_575.png)
+   <figure><img src="../../../assets/Image_575.png" alt="" width="720"><figcaption></figcaption></figure>
 2. Click on the **Select images** field and select an image from the drop-down list.
 3. Click on the **Scan Image** button.
 
    When the scan completes, the results are shown. The initial view shows the **Summary** tab. You can view additional details in the **Packages** and **Vulnerabilities** tabs.
 
-   ![](../../../assets/Image_603.png)
+   <figure><img src="../../../assets/Image_603.png" alt="" width="576"><figcaption></figcaption></figure>
 
 ## Viewing Scan Results
 
@@ -200,7 +200,7 @@ This pane shows a separate section for each build stage showing all layers withi
 
 This section serves as a navigation pane for the details tabs. When **All** is selected, all results are shown in the **Vulnerabilities** and **Packages** tabs. When a specific layer is selected, the **Vulnerabilities** and **Packages** tabs are filtered to show only results for that layer.
 
-![](../../../assets/Image_602.png)
+<figure><img src="../../../assets/Image_602.png" alt="" width="576"><figcaption></figcaption></figure>
 
 ### Details Tabs
 
@@ -212,7 +212,7 @@ This tab shows a summary of the number of vulnerabilities, broken down by severi
 This display isn’t affected by the selection made in the **Image & Layers** section.
 {% endhint %}
 
-![](../../../assets/Image_598.png)
+<figure><img src="../../../assets/Image_598.png" alt="" width="360"><figcaption></figcaption></figure>
 
 #### Vulnerabilities Tab
 
@@ -222,7 +222,7 @@ This tab shows the vulnerabilities identified in each package. Click on a packag
 Use the search field at the top right to search by CVE or package name. Results are filtered as you type.
 {% endhint %}
 
-![](../../../assets/Image_600.png)
+<figure><img src="../../../assets/Image_600.png" alt="" width="360"><figcaption></figcaption></figure>
 
 #### Packages Tab
 
@@ -232,4 +232,4 @@ This tab shows a list of packages that were identified. Click on a package to sh
 Use the search field at the top right to search by package name. Results are filtered as you type.
 {% endhint %}
 
-![](../../../assets/Image_601.png)
+<figure><img src="../../../assets/Image_601.png" alt="" width="360"><figcaption></figcaption></figure>

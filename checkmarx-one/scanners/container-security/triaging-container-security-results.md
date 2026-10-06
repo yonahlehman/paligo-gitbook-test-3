@@ -57,22 +57,22 @@ Based on your AppSec team's determination, the score can be adjusted to a score 
 2. On the **Scan Results** page, hover over the desired Image.
 3. Click on the **View Images** button that appears on the Image row.
 
-   ![](../../../assets/Image_-_View.png)
+   <figure><img src="../../../assets/Image_-_View.png" alt="" width="576"><figcaption></figcaption></figure>
 
    The **Image Details** panel opens.
 4. Select the desired layer from the **Layers** list.
 
    The packages used in the layer will be displayed to the right.
 
-   ![](../../../assets/Container_-_Packages.png)
+   <figure><img src="../../../assets/Container_-_Packages.png" alt="" width="576"><figcaption></figcaption></figure>
 5. To view the vulnerabilities, expand the package by clicking on the arrow icon.
 6. Hover over the desired vulnerability and click on the **Edit** button that appears.
 
-   ![](../../../assets/Container_-_Vulnerability.png)
+   <figure><img src="../../../assets/Container_-_Vulnerability.png" alt="" width="576"><figcaption></figcaption></figure>
 
    The **Edit Result** panel appears.
 
-   ![](../../../assets/Container_-_Edit_Result.png)
+   <figure><img src="../../../assets/Container_-_Edit_Result.png" alt="" width="576"><figcaption></figcaption></figure>
 7. To change the state, click on the **State** field and select the desired state from the drop-down list.
 8. To change the severity, click on the **Severity** field and select the desired severity from the drop-down list.
 9. To change the score, enter the new score in the **Score** field, or use the arrows to raise or lower the score.
@@ -85,12 +85,12 @@ Based on your AppSec team's determination, the score can be adjusted to a score 
 
 1. In the **Image Details** panel **Vulnerabilities** tab, drill down to show the vulnerabilities in each package and select the checkbox next to each vulnerability that you would like to include in the bulk action triage. Then, click on **Edit Properties**.
 
-   ![](../../../assets/Vulnerabilities_-_Bulk_Edit.png)
+   <figure><img src="../../../assets/Vulnerabilities_-_Bulk_Edit.png" alt="" width="432"><figcaption></figcaption></figure>
 
    All of the selected vulnerabilities are shown and you can click on each one to see the relevant details.
 2. Make changes to the **Severity**, **State**, **Score**, and **Add a Comment**.
 
-   ![](../../../assets/Vulnerabilities_-_Bulk_Triage.png)
+   <figure><img src="../../../assets/Vulnerabilities_-_Bulk_Triage.png" alt="" width="432"><figcaption></figcaption></figure>
 3. Click **Save Changes**.
 
    The changes are applied to all of the selected vulnerabilities.
@@ -129,7 +129,7 @@ Only users with the roles `update-package-state-snooze` and `update-package-stat
 
    The **Edit Image** panel opens.
 
-   ![](../../../assets/Image_-_Panel.png)
+   <figure><img src="../../../assets/Image_-_Panel.png" alt="" width="576"><figcaption></figcaption></figure>
 4. To change the state, click on the **State** field and select the desired state from the drop-down list.
 5. In the **Add a Comment** section, enter your comment.
 6. Click **Save Changes**.
@@ -140,10 +140,10 @@ To triage the state of multiple images:
 
 1. In the **Scan Results** page, select the checkbox next to each Image that you would like to include in the bulk action triage. Then, click on **Edit Results**.
 
-   ![](../../../assets/Image_-_Bulk_Edit.png)
+   <figure><img src="../../../assets/Image_-_Bulk_Edit.png" alt="" width="432"><figcaption></figcaption></figure>
 2. Make changes to the **State** and **Add a Comment**.
 
-   ![](../../../assets/Image_-_Bulk_Triage.png)
+   <figure><img src="../../../assets/Image_-_Bulk_Triage.png" alt="" width="432"><figcaption></figcaption></figure>
 3. Click **Save Changes**.
 
    The changes are applied to all of the selected Images.
@@ -154,26 +154,26 @@ To triage the state of multiple images:
 
 1. On the Projects page, hover over the **Results** button for the desired project and select **Container Security**.
 
-   ![](../../../assets/Projects_-_Container_Security.png)
+   <figure><img src="../../../assets/Projects_-_Container_Security.png" alt="" width="648"><figcaption></figcaption></figure>
 2. On the **Scan Results** page, hover over the desired Image.
 3. Click on the **View Images** button that appears on the Image row.
 
-   ![](../../../assets/Image_-_View.png)
+   <figure><img src="../../../assets/Image_-_View.png" alt="" width="576"><figcaption></figcaption></figure>
 
    The **Image Details** panel opens.
 4. Select the desired layer from the **Layers** list.
 
    The packages used in the layer will be displayed to the right.
 
-   ![](../../../assets/Container_-_Packages.png)
+   <figure><img src="../../../assets/Container_-_Packages.png" alt="" width="576"><figcaption></figcaption></figure>
 5. Select the checkbox next to the desired package.
 6. Click on the **Edit Properties** button that appears over the packages list.
 
-   ![](../../../assets/Container_-_Packages_Edit.png)
+   <figure><img src="../../../assets/Container_-_Packages_Edit.png" alt="" width="576"><figcaption></figcaption></figure>
 
    The **Edit Package** panel appears.
 
-   ![](../../../assets/Container_-_Edit_Package.png)
+   <figure><img src="../../../assets/Container_-_Edit_Package.png" alt="" width="576"><figcaption></figcaption></figure>
 7. To change the state, click on the **State** field and select the desired state from the drop-down list.
 8. In the **Add a Comment** section, enter your comment.
 9. If desired, select the **Apply change to all instances of this package in the project** checkbox.
@@ -189,10 +189,10 @@ To triage the state of multiple images:
 
 1. In the **Image Details** panel **Vulnerabilities** tab, select the checkbox next to each package that you would like to include in the bulk action triage. Then, click on **Edit Properties**.
 
-   ![](../../../assets/Packages_-_Bulk_Edit.png)
+   <figure><img src="../../../assets/Packages_-_Bulk_Edit.png" alt="" width="432"><figcaption></figcaption></figure>
 2. Make changes to the **State**, **Add a Comment** and **Apply change to all instances of this package in the project**.
 
-   ![](../../../assets/Packages_-_Bulk_Triage.png)
+   <figure><img src="../../../assets/Packages_-_Bulk_Triage.png" alt="" width="432"><figcaption></figcaption></figure>
 3. Click **Save Changes**.
 
    The changes are applied to all of the selected packages.

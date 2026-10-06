@@ -18,17 +18,17 @@ We provide a convenient wizard on the Checkmarx One **Integrations** page that e
 
 **To set up a JFrog Artifactory Private Registry Integration:**
 
-1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main navigation, select **Integrations** <img src="../../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Setup** tab, under **Private Registries for Containers**, hover over the **JFrog Artifactory** tile and click on **Configuration**.
 3. In the side panel that opens, click **Start**.
 
    The **JFrog Artifactory Integration** wizard opens.
 
-   ![](../../../../assets/Image_1784.png)
+   <figure><img src="../../../../assets/Image_1784.png" alt="" width="360"><figcaption></figcaption></figure>
 4. **Name Your Account** and optionally fill in the **Description** and **Associate Tags** fields, then click **Next**.
 5. Under **Username** enter the Username for your JFrog account.
 
-   ![](../../../../assets/Image_1979.png)
+   <figure><img src="../../../../assets/Image_1979.png" alt="" width="360"><figcaption></figcaption></figure>
 6. In the **API Key** field, enter the API key for your JFrog Artifactory (as described above in Prerequisites).
 7. In the **URL** field, enter the URL for your JFrog account using the format `https://<jfrog_instance>.jfrog.io`.
 
@@ -51,5 +51,5 @@ You can monitor the status of your JFrog integrations to see whether or not the 
 
 **To monitor the integration status:**
 
-1. In the main navigation, select **Integrations** ![](../../../../assets/Integrations.png)> **Cloud Connections**.
+1. In the main navigation, select **Integrations** <img src="../../../../assets/Integrations.png" alt="" data-size="line">> **Cloud Connections**.
 2. In the **Cloud Connections** tab, check the **Status** column for each of your integrations.

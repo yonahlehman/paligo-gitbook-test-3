@@ -53,7 +53,7 @@ The results of every incremental scan are merged with its base full scan to prov
 
 Each black line represents one result, flowing through several nodes:
 
-![](../../../assets/6405128331.png)
+<figure><img src="../../../assets/6405128331.png" alt="" width="340"><figcaption></figcaption></figure>
 
 - **A** – All of the result nodes are inside the changed files. New results like this returned from an incremental scan are "good results" that the total scan is expected to find.
 - **B** – All of the result nodes are inside the closure files. New results like this returned from an incremental scan are "bad results" because these files weren't changed, so there cannot be a new result here. These result types are removed because they are filtered in the incremental scan, and the remaining results are those in at least one of their nodes inside the changed files (A, D)**.**
@@ -68,14 +68,14 @@ You can adjust the incremental scan threshold at the tenant and project levels i
 
 To adjust the threshold at the **Tenant** level:
 
-1. Navigate to ![](../../../assets/Homepage_settings_cog-account_settings_.png) then **Global Settings** to open the **Account Settings** page.
+1. Navigate to <img src="../../../assets/Homepage_settings_cog-account_settings_.png" alt="" data-size="line"> then **Global Settings** to open the **Account Settings** page.
 2. Select **SAST** to open its list of default parameters.
 3. Select the threshold in the dropdown beneath **Incremental threshold**.
 4. Click **Save** when done.
 
 To adjust the threshold at the **Project** level:
 
-1. Click the ![](../../../assets/Vertical_Ellipsis.png) at the end of a project's row.
+1. Click the <img src="../../../assets/Vertical_Ellipsis.png" alt="" data-size="line"> at the end of a project's row.
 2. Select **Project Settings**.
 3. Navigate to **Rules**.
 4. Click **+ Add Rule**.
@@ -118,7 +118,7 @@ You can enable incremental scans for branches (API) by performing the following:
 2. Navigate to **SAST**.
 3. Select **Incremental in branch (API)**.
 
-   ![](../../../assets/incrementalscanapi.png)
+   <figure><img src="../../../assets/incrementalscanapi.png" alt="" width="400"><figcaption></figcaption></figure>
 4. Change the value from **false** (default) to **true**.
 
 ##### API

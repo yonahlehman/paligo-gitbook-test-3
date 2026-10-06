@@ -117,13 +117,13 @@ This is different from the [SBOM File Analysis API](https://checkmarx.stoplight.
 ### Using the web portal
 
 1. On the **Application and Projects** home page select the **Projects** tab.
-2. Hover over the row of the project that you would like to scan, click on the Scan icon ![](../../../assets/Scan_Management.png).
+2. Hover over the row of the project that you would like to scan, click on the Scan icon <img src="../../../assets/Scan_Management.png" alt="" data-size="line">.
 
-   ![](../../../assets/Image_1811.png)
+   <figure><img src="../../../assets/Image_1811.png" alt="" width="576"><figcaption></figcaption></figure>
 
-   The **New Scan** window opens. By default, under **Project Name**, the project of the row in which you clicked the Scan icon![](../../../assets/Scan_Management.png) is selected.
+   The **New Scan** window opens. By default, under **Project Name**, the project of the row in which you clicked the Scan icon<img src="../../../assets/Scan_Management.png" alt="" data-size="line"> is selected.
 
-   ![](../../../assets/Image_1812.png)
+   <figure><img src="../../../assets/Image_1812.png" alt="" width="360"><figcaption></figcaption></figure>
 
    {% hint style="info" %}
    If you would like to scan a different project, it is possible to select it from the drop-down menu.
@@ -131,7 +131,7 @@ This is different from the [SBOM File Analysis API](https://checkmarx.stoplight.
 3. In the **Source to Scan** section, select **SBOM**.
 4. In the box below, either drag a file into the box or click on **Select File** and navigate to the relevant file.
 
-   ![](../../../assets/Image_1938.png)
+   <figure><img src="../../../assets/Image_1938.png" alt="" width="360"><figcaption></figcaption></figure>
 5. In the **Branch** field you can specify the name of the branch of the project. (Optional)
 6. In the **Scan Tags** field you can add tags to the scan. (Optional)
 
@@ -142,13 +142,13 @@ This is different from the [SBOM File Analysis API](https://checkmarx.stoplight.
 7. Click **Next**.
 8. The SCA scanner is the only selected scanner because it is the only one supported when scanning SBOMs.
 
-   ![](../../../assets/Image_1939.png)
+   <figure><img src="../../../assets/Image_1939.png" alt="" width="360"><figcaption></figcaption></figure>
 9. Click **Scan**.
 
    The **New Scan** dialog closes and the scan starts.
 10. You can monitor the scan's status in the Projects tab when hovering over the project.
 
-    ![](../../../assets/Image_1819.png)
+    <figure><img src="../../../assets/Image_1819.png" alt="" width="576"><figcaption></figcaption></figure>
 
 ## Understanding the results
 
