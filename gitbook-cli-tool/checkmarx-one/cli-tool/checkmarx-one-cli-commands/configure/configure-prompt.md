@@ -65,8 +65,8 @@ The configure command prompts for the following authentication parameters
   </details>
 - AST Tenant - The name of you Checkmarx One tenant account.
 - Do you want to use API Key authentication? - Specify your authentication method. Y = API Key, N = OAuth client
-- AST API Key - Your Checkmarx One API Key. See Generating an API Key
-- Checkmarx One Client ID - Your Checkmarx One OAuth client ID. See Creating an OAuth Client for Checkmarx One Integrations
+- AST API Key - Your Checkmarx One API Key. See [Generating an API Key](../../checkmarx-one-cli-quick-start-guide.md)
+- Checkmarx One Client ID - Your Checkmarx One OAuth client ID. See [Creating an OAuth Client for Checkmarx One Integrations](../../configuring-the-checkmarx-one-cli/README.md#creating-an-oauth-client-for-checkmarx-one-integrations)
 - Client Secret - Your Checkmarx One OAuth secret.
 
 ## Usage Example

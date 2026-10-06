@@ -16,7 +16,7 @@ The `configure set` command is used for setting configuration properties. For ea
 
 ## Properties
 
-The following is a list of properties that can be set. Certain authentication properties are required, depending on your authentication method (API Key or OAuth client), see Configuring the Checkmarx One CLI.
+The following is a list of properties that can be set. Certain authentication properties are required, depending on your authentication method (API Key or OAuth client), see [Configuring the Checkmarx One CLI](../../configuring-the-checkmarx-one-cli/README.md).
 
 - `cx_apikey` — An API Key to login to the Checkmarx One server.
 - `cx_base_auth_uri` — The URL of the Checkmarx One User Management server.

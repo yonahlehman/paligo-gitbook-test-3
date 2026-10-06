@@ -6,7 +6,7 @@ The pr command decorates pull requests with results from Checkmarx One scans tha
 For secured code repository environments, pr decorations can be sent via CxLink using the environment variable `CX_LINK_SERVER_HOST`.
 {% endhint %}
 
-![](../../assets/6333663227.png)
+![](../../../../../assets/6333663227.png)
 
 ## Usage
 
